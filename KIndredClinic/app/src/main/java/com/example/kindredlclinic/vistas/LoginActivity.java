@@ -17,13 +17,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import com.example.kindredlclinic.MainActivity;
 import com.example.kindredlclinic.R;
 import com.example.kindredlclinic.models.ClinicDBHelper;
-
-*/
-/*import amsi.dei.estg.ipleiria.app_adatel.MainActivity;
-import amsi.dei.estg.ipleiria.app_adatel.R;
-import amsi.dei.estg.ipleiria.app_adatel.models.HotelBDHelper;
-import amsi.dei.estg.ipleiria.app_adatel.models.SingletonGestaoHotel;
-import amsi.dei.estg.ipleiria.app_adatel.utils.ReservaJsonParser;*//*
+import com.example.kindredlclinic.models.SingletonKindredClinic;
 
 
 public class LoginActivity extends AppCompatActivity {
@@ -60,7 +54,7 @@ public class LoginActivity extends AppCompatActivity {
         intent.putExtra(MainActivity.CHAVE_EMAIL, sharedPreferences.getString("username",null));
 
         if(sharedPreferences.contains("username") && sharedPreferences.contains("password")){
-            String recebido = SingletonGestaoHotel.getInstance(context).getUsersAPI(context,
+            String recebido = SingletonKindredClinic.getInstance(context).getUsersAPI(context,
                     ReservaJsonParser.isConnectionInternet(context), sharedPreferences.getString("username",null), sharedPreferences.getString("password",null));
 
             startActivity(intent);
@@ -83,11 +77,8 @@ public class LoginActivity extends AppCompatActivity {
             return;
         }
 
-        */
-/***  Login Function  ***//*
-
         // recebe o id do utilizador
-        String recebido = SingletonGestaoHotel.getInstance(context).getUsersAPI(context,
+        String recebido = SingletonKindredClinic.getInstance(context).getUsersAPI(context,
                 ReservaJsonParser.isConnectionInternet(context), user, password);
 
 
@@ -108,8 +99,7 @@ public class LoginActivity extends AppCompatActivity {
             intent.putExtra(MainActivity.CHAVE_EMAIL, user);
             startActivity(intent);
         }
-        */
-/*** **********//*
+** *********
 
     }
 
