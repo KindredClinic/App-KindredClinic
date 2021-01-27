@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">KindredlClinic</string>
+    <string name="area_utente">Area Utente</string>
+    <string name="email">Email</string>
+    <string name="perfil">Perfil</string>
+    <string name="consultas">Consultas</string>
+    <string name="exames">Exames</string>
+    <string name="receitas">Receitas</string>
+    <string name="sobre">Sobre</string>
+    <string name="contactos">Contactos</string>
+    <string name="telem_vel">Telemóvel</string>
+    <string name="terminar_sess_o">Terminar Sessão</string>
+    <string name="quem_somos">Quem Somos</string>
+    <string name="onde_estamos">Onde Estamos</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="curso_t_cnico_superior_profissional_de_programa_o_de_sistemas_de_informa_o">Curso Técnico Superior Profissional de Programação de Sistemas de Informação</string>
+    <string name="_2180684_afonso_ara_jo">2180684 - Afonso Araújo</string>
+    <string name="_2180643_alex_pereira">2180643 - Alex Pereira</string>
+    <string name="login_utente">Login Utente</string>
+    <string name="login_password">Password</string>
+    <string name="login_pergunta">Ainda não possui conta?</string>
+    <string name="login_registar">Registar</string>
+    <string name="login">Login</string>
+    <string name="registar_nome">Nome</string>
+    <string name="registar_nif">Nif</string>
+    <string name="registar_nr_telefone">Número Telefone</string>
+    <string name="registar_morada">Morada</string>
+    <string name="registar_utilizador">Nome Utilizador</string>
+    <string name="registar_email">Email</string>
+    <string name="registar_password">Password</string>
+</resources>

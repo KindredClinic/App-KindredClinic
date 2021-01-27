@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:title="@string/area_utente"
+        android:checkableBehavior="single" >
+        <menu>
+            <item
+                android:id="@+id/nav_perfil"
+                android:title="@string/perfil"
+                android:icon="@drawable/ic_user"/>
+            <item
+                android:id="@+id/nav_consultas"
+                android:title="@string/consultas"
+                android:icon="@drawable/ic_calendar"/>
+            <item
+                android:id="@+id/nav_exames"
+                android:title="@string/exames"
+                android:icon="@drawable/ic_exam"/>
+            <item
+                android:id="@+id/nav_receitas"
+                android:title="@string/receitas"
+                android:icon="@drawable/ic_receita"/>
+        </menu>
+    </item>
+
+    <item android:title="@string/sobre" >
+        <menu >
+            <item
+                android:id="@+id/nav_quemSomos"
+                android:title="@string/quem_somos"
+                android:icon="@drawable/ic_quemsomos">
+            </item>
+            <item
+                android:id="@+id/nav_ondeEstamos"
+                android:title="@string/onde_estamos"
+                android:icon="@drawable/ic_localizacao">
+            </item>
+        </menu>
+    </item>
+
+    <item android:title="@string/contactos" >
+        <menu >
+            <item
+                android:id="@+id/nav_email"
+                android:title="@string/email"
+                android:icon="@drawable/ic_email">
+            </item>
+            <item
+                android:id="@+id/nav_telemovel"
+                android:title="@string/telem_vel"
+                android:icon="@drawable/ic_phone">
+            </item>
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/nav_terminarSessao"
+        android:title="@string/terminar_sess_o"
+        android:icon="@drawable/ic_terminar_sessao">
+    </item>
+
+</menu>
