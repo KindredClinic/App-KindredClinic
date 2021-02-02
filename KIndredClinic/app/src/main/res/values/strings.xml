@@ -29,4 +29,7 @@
     <string name="registar_utilizador">Nome Utilizador</string>
     <string name="registar_email">Email</string>
     <string name="registar_password">Password</string>
+    <string name="password_invalida">Password Inválida</string>
+    <string name="registar">Registar</string>
+    <string name="registar_voltar">Voltar</string>
 </resources>

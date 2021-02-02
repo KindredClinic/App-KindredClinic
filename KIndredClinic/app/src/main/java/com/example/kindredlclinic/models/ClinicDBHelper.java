@@ -296,6 +296,10 @@ public class ClinicDBHelper extends SQLiteOpenHelper{
         return  (this.database.delete(TABLE_UTENTE, "id = ?", new String[]{"" + id_user}) == 1);
     }
 
+    public void removerALLUtentesDB(){
+        this.database.delete(TABLE_UTENTE, null, null);
+    }
+
     // <------------------- CONSULTA ------------------->
 
     public ArrayList<Consulta> getAllConsultasBD(){

@@ -1,4 +1,3 @@
-/*
 package com.example.kindredlclinic.vistas;
 
 import android.content.Context;
@@ -18,6 +17,7 @@ import com.example.kindredlclinic.MainActivity;
 import com.example.kindredlclinic.R;
 import com.example.kindredlclinic.models.ClinicDBHelper;
 import com.example.kindredlclinic.models.SingletonKindredClinic;
+import com.example.kindredlclinic.utils.ConsultaJsonParser;
 
 
 public class LoginActivity extends AppCompatActivity {
@@ -42,7 +42,7 @@ public class LoginActivity extends AppCompatActivity {
 
         setContentView(R.layout.activity_login);
         //retira a status bar
-        getSupportActionBar().hide();
+        getSupportActionBar();
 
         registar = findViewById(R.id.tvLinktoRegistar);
         editTextUser = findViewById(R.id.editTextUser);
@@ -55,7 +55,7 @@ public class LoginActivity extends AppCompatActivity {
 
         if(sharedPreferences.contains("username") && sharedPreferences.contains("password")){
             String recebido = SingletonKindredClinic.getInstance(context).getUsersAPI(context,
-                    ReservaJsonParser.isConnectionInternet(context), sharedPreferences.getString("username",null), sharedPreferences.getString("password",null));
+                    ConsultaJsonParser.isConnectionInternet(context), sharedPreferences.getString("username",null), sharedPreferences.getString("password",null));
 
             startActivity(intent);
         }
@@ -79,7 +79,7 @@ public class LoginActivity extends AppCompatActivity {
 
         // recebe o id do utilizador
         String recebido = SingletonKindredClinic.getInstance(context).getUsersAPI(context,
-                ReservaJsonParser.isConnectionInternet(context), user, password);
+                ConsultaJsonParser.isConnectionInternet(context), user, password);
 
 
         System.out.println("--> Recevido: " + recebido);
@@ -99,10 +99,9 @@ public class LoginActivity extends AppCompatActivity {
             intent.putExtra(MainActivity.CHAVE_EMAIL, user);
             startActivity(intent);
         }
-** *********
+
 
     }
-
 
     private boolean isPasswordValida(String password) {
         if(password == null){
@@ -112,4 +111,3 @@ public class LoginActivity extends AppCompatActivity {
     }
 
 }
-*/
