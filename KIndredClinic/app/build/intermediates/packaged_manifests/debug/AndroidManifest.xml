@@ -22,6 +22,10 @@
         android:testOnly="true"
         android:theme="@style/Theme.KindredlClinic"
         android:usesCleartextTraffic="true" >
+        <activity
+            android:name="com.example.kindredlclinic.MainActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
         <activity android:name="com.example.kindredlclinic.vistas.LoginActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

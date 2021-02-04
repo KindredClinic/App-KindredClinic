@@ -1,518 +1,518 @@
 [
     {
-        "merged": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\layout_nav_header_main.xml.flat",
-        "source": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\src\\main\\res\\layout\\nav_header_main.xml"
+        "merged": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_calendar.png.flat",
+        "source": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_calendar.png"
     },
     {
-        "merged": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_exam.png.flat",
-        "source": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_exam.png"
+        "merged": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_main_icon_round.png.flat",
+        "source": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_main_icon_round.png"
     },
     {
-        "merged": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_receita.png.flat",
-        "source": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_receita.png"
+        "merged": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_exam.png.flat",
+        "source": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_exam.png"
     },
     {
-        "merged": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_calendar.png.flat",
-        "source": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_calendar.png"
+        "merged": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_launcher_background.png.flat",
+        "source": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_launcher_background.png"
     },
     {
-        "merged": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_main_icon_background.xml.flat",
-        "source": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_main_icon_background.xml"
+        "merged": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_main_icon_foreground.png.flat",
+        "source": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\src\\main\\res\\mipmap-mdpi\\ic_main_icon_foreground.png"
     },
     {
-        "merged": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_quemsomos.png.flat",
-        "source": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_quemsomos.png"
+        "merged": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_terminar_sessao.png.flat",
+        "source": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_terminar_sessao.png"
     },
     {
-        "merged": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_receita.png.flat",
-        "source": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_receita.png"
+        "merged": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_terminar_sessao.xml.flat",
+        "source": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_terminar_sessao.xml"
     },
     {
-        "merged": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_user.png.flat",
-        "source": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_user.png"
+        "merged": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_registar.xml.flat",
+        "source": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\src\\main\\res\\layout\\activity_registar.xml"
     },
     {
-        "merged": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_localizacao.xml.flat",
-        "source": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_localizacao.xml"
+        "merged": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_receita.png.flat",
+        "source": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_receita.png"
     },
     {
-        "merged": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+        "merged": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_launcher_background.png.flat",
+        "source": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_launcher_background.png"
     },
     {
-        "merged": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_quemsomos.xml.flat",
-        "source": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_quemsomos.xml"
+        "merged": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_foreground.png"
     },
     {
-        "merged": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_main_icon_background.png.flat",
-        "source": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_main_icon_background.png"
+        "merged": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_phone.png.flat",
+        "source": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_phone.png"
     },
     {
-        "merged": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_main_icon_foreground.png.flat",
-        "source": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\src\\main\\res\\mipmap-hdpi\\ic_main_icon_foreground.png"
+        "merged": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_foreground.png"
     },
     {
-        "merged": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_foreground.png.flat",
-        "source": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_foreground.png"
+        "merged": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\layout_nav_header_main.xml.flat",
+        "source": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\src\\main\\res\\layout\\nav_header_main.xml"
     },
     {
-        "merged": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_user.png.flat",
-        "source": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_user.png"
+        "merged": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_exam.png.flat",
+        "source": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_exam.png"
     },
     {
-        "merged": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+        "merged": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
     },
     {
-        "merged": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_localizacao.png.flat",
-        "source": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_localizacao.png"
+        "merged": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_foreground.png"
     },
     {
-        "merged": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_registar.xml.flat",
-        "source": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\src\\main\\res\\layout\\activity_registar.xml"
+        "merged": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_foreground.png"
     },
     {
-        "merged": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_consulta.xml.flat",
-        "source": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\src\\main\\res\\layout\\item_consulta.xml"
+        "merged": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_quemsomos.png.flat",
+        "source": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_quemsomos.png"
     },
     {
-        "merged": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_main_icon_round.png.flat",
-        "source": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_main_icon_round.png"
+        "merged": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_foreground.png"
     },
     {
-        "merged": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_quemsomos.png.flat",
-        "source": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_quemsomos.png"
+        "merged": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_launcher_background.png.flat",
+        "source": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_launcher_background.png"
     },
     {
-        "merged": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_localizacao.png.flat",
-        "source": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_localizacao.png"
+        "merged": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_email.png.flat",
+        "source": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_email.png"
     },
     {
-        "merged": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_terminar_sessao.png.flat",
-        "source": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_terminar_sessao.png"
+        "merged": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_user.png.flat",
+        "source": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_user.png"
     },
     {
-        "merged": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
-        "source": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+        "merged": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_receita.png.flat",
+        "source": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_receita.png"
     },
     {
-        "merged": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_exam.png.flat",
-        "source": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_exam.png"
+        "merged": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_email.xml.flat",
+        "source": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_email.xml"
     },
     {
-        "merged": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_adicionar.png.flat",
-        "source": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_adicionar.png"
+        "merged": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\layout_app_bar_main.xml.flat",
+        "source": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\src\\main\\res\\layout\\app_bar_main.xml"
     },
     {
-        "merged": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_localizacao.png.flat",
-        "source": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_localizacao.png"
+        "merged": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_user.png.flat",
+        "source": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_user.png"
     },
     {
-        "merged": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_launcher_background.png.flat",
-        "source": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_launcher_background.png"
+        "merged": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_calendar.png.flat",
+        "source": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_calendar.png"
     },
     {
-        "merged": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_exam.png.flat",
-        "source": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_exam.png"
+        "merged": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_exam.png.flat",
+        "source": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_exam.png"
     },
     {
-        "merged": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_login.xml.flat",
-        "source": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\src\\main\\res\\layout\\activity_login.xml"
+        "merged": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_calendar.png.flat",
+        "source": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_calendar.png"
     },
     {
-        "merged": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_receita.png.flat",
-        "source": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_receita.png"
+        "merged": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_main_icon_round.png.flat",
+        "source": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\src\\main\\res\\mipmap-hdpi\\ic_main_icon_round.png"
     },
     {
-        "merged": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_main_icon_foreground.png.flat",
-        "source": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_main_icon_foreground.png"
+        "merged": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_receita.xml.flat",
+        "source": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_receita.xml"
     },
     {
-        "merged": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_user.png.flat",
-        "source": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_user.png"
+        "merged": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_exam.png.flat",
+        "source": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_exam.png"
     },
     {
-        "merged": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_email.png.flat",
-        "source": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_email.png"
+        "merged": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_main_icon_background.png.flat",
+        "source": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_main_icon_background.png"
     },
     {
-        "merged": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
-        "source": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+        "merged": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_main_icon_round.png.flat",
+        "source": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\src\\main\\res\\mipmap-xhdpi\\ic_main_icon_round.png"
     },
     {
-        "merged": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_phone.png.flat",
-        "source": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_phone.png"
+        "merged": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_launcher_background.png.flat",
+        "source": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_launcher_background.png"
     },
     {
-        "merged": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_main_icon_background.png.flat",
-        "source": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_main_icon_background.png"
+        "merged": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_main_icon_background.png.flat",
+        "source": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_main_icon_background.png"
     },
     {
-        "merged": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
-        "source": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+        "merged": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_phone.png.flat",
+        "source": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_phone.png"
     },
     {
-        "merged": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_email.png.flat",
-        "source": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_email.png"
+        "merged": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_exam.png.flat",
+        "source": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_exam.png"
     },
     {
-        "merged": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_terminar_sessao.png.flat",
-        "source": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_terminar_sessao.png"
+        "merged": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_consulta.xml.flat",
+        "source": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\src\\main\\res\\layout\\item_consulta.xml"
     },
     {
-        "merged": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
-        "source": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+        "merged": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_terminar_sessao.png.flat",
+        "source": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_terminar_sessao.png"
     },
     {
-        "merged": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_receita.png.flat",
-        "source": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_receita.png"
+        "merged": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_adicionar.xml.flat",
+        "source": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_adicionar.xml"
     },
     {
-        "merged": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_adicionar.png.flat",
-        "source": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_adicionar.png"
+        "merged": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_phone.png.flat",
-        "source": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_phone.png"
+        "merged": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_launcher_background.png.flat",
+        "source": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_launcher_background.png"
     },
     {
-        "merged": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\layout_app_bar_main.xml.flat",
-        "source": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\src\\main\\res\\layout\\app_bar_main.xml"
+        "merged": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_main_icon.png.flat",
-        "source": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\src\\main\\res\\mipmap-hdpi\\ic_main_icon.png"
+        "merged": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_adicionar.png.flat",
+        "source": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_adicionar.png"
     },
     {
-        "merged": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_calendar.xml.flat",
-        "source": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_calendar.xml"
+        "merged": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_quemsomos.xml.flat",
+        "source": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_quemsomos.xml"
     },
     {
-        "merged": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
-        "source": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+        "merged": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
     },
     {
-        "merged": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_info.xml.flat",
-        "source": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\src\\main\\res\\layout\\fragment_info.xml"
+        "merged": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_terminar_sessao.png.flat",
+        "source": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_terminar_sessao.png"
     },
     {
-        "merged": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_main_icon_background.png.flat",
-        "source": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_main_icon_background.png"
+        "merged": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_phone.png.flat",
+        "source": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_phone.png"
     },
     {
-        "merged": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_main_icon_foreground.png.flat",
-        "source": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_main_icon_foreground.png"
+        "merged": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_main_icon_background.xml.flat",
+        "source": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_main_icon_background.xml"
     },
     {
-        "merged": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_adicionar.png.flat",
-        "source": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_adicionar.png"
+        "merged": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_login.xml.flat",
+        "source": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\src\\main\\res\\layout\\activity_login.xml"
     },
     {
-        "merged": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_main_icon_background.png.flat",
-        "source": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_main_icon_background.png"
+        "merged": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_main_icon_round.xml.flat",
+        "source": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_main_icon_round.xml"
     },
     {
-        "merged": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_calendar.png.flat",
-        "source": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_calendar.png"
+        "merged": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_localizacao.png.flat",
+        "source": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_localizacao.png"
     },
     {
-        "merged": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
-        "source": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+        "merged": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_user.png.flat",
+        "source": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_user.png"
     },
     {
-        "merged": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_localizacao.png.flat",
-        "source": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_localizacao.png"
+        "merged": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
-        "merged": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_adicionar.png.flat",
-        "source": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_adicionar.png"
+        "merged": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_calendar.png.flat",
+        "source": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_calendar.png"
     },
     {
-        "merged": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+        "merged": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_exam.xml.flat",
+        "source": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_exam.xml"
     },
     {
-        "merged": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_phone.png.flat",
-        "source": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_phone.png"
+        "merged": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_main_icon_foreground.png.flat",
+        "source": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_main_icon_foreground.png"
     },
     {
-        "merged": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_adicionar.png.flat",
-        "source": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_adicionar.png"
+        "merged": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
     },
     {
-        "merged": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_main_icon_round.png.flat",
-        "source": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\src\\main\\res\\mipmap-mdpi\\ic_main_icon_round.png"
+        "merged": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_localizacao.png.flat",
+        "source": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_localizacao.png"
     },
     {
-        "merged": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_phone.xml.flat",
-        "source": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_phone.xml"
+        "merged": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\menu_activity_main_drawer.xml.flat",
+        "source": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\src\\main\\res\\menu\\activity_main_drawer.xml"
     },
     {
-        "merged": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_terminar_sessao.png.flat",
-        "source": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_terminar_sessao.png"
+        "merged": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_main_icon.png.flat",
+        "source": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\src\\main\\res\\mipmap-hdpi\\ic_main_icon.png"
     },
     {
-        "merged": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_launcher_background.png.flat",
-        "source": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_launcher_background.png"
+        "merged": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_localizacao.png.flat",
+        "source": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_localizacao.png"
     },
     {
-        "merged": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_email.png.flat",
-        "source": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_email.png"
+        "merged": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_main_icon_background.png.flat",
+        "source": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_main_icon_background.png"
     },
     {
-        "merged": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
-        "source": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_foreground.png"
+        "merged": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_main_icon_round.png.flat",
+        "source": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\src\\main\\res\\mipmap-mdpi\\ic_main_icon_round.png"
     },
     {
-        "merged": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_user.png.flat",
-        "source": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_user.png"
+        "merged": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_receita.png.flat",
+        "source": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_receita.png"
     },
     {
-        "merged": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_phone.png.flat",
-        "source": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_phone.png"
+        "merged": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_main_icon_foreground.png.flat",
+        "source": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_main_icon_foreground.png"
     },
     {
-        "merged": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_launcher_background.png.flat",
-        "source": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_launcher_background.png"
+        "merged": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
-        "merged": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_main_icon.xml.flat",
-        "source": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_main_icon.xml"
+        "merged": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_terminar_sessao.png.flat",
+        "source": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_terminar_sessao.png"
     },
     {
-        "merged": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_receita.png.flat",
-        "source": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_receita.png"
+        "merged": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
-        "merged": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_phone.png.flat",
-        "source": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_phone.png"
+        "merged": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_quemsomos.png.flat",
+        "source": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_quemsomos.png"
     },
     {
-        "merged": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_main_icon_foreground.png.flat",
-        "source": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\src\\main\\res\\mipmap-mdpi\\ic_main_icon_foreground.png"
+        "merged": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_main_icon_foreground.png.flat",
+        "source": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\src\\main\\res\\mipmap-hdpi\\ic_main_icon_foreground.png"
     },
     {
-        "merged": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_localizacao.png.flat",
-        "source": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_localizacao.png"
+        "merged": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_phone.png.flat",
+        "source": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_phone.png"
     },
     {
-        "merged": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_quemsomos.png.flat",
-        "source": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_quemsomos.png"
+        "merged": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_localizacao.png.flat",
+        "source": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_localizacao.png"
     },
     {
-        "merged": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_localizacao.png.flat",
-        "source": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_localizacao.png"
+        "merged": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+        "merged": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_calendar.png.flat",
+        "source": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_calendar.png"
     },
     {
-        "merged": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_main_icon_foreground.png.flat",
-        "source": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\src\\main\\res\\mipmap-xhdpi\\ic_main_icon_foreground.png"
+        "merged": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_main_icon.png.flat",
-        "source": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_main_icon.png"
+        "merged": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_user.xml.flat",
+        "source": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_user.xml"
     },
     {
-        "merged": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_phone.png.flat",
-        "source": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_phone.png"
+        "merged": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
-        "source": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+        "merged": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_user.png.flat",
+        "source": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_user.png"
     },
     {
-        "merged": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\drawable_fundo_azul.jpg.flat",
-        "source": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\src\\main\\res\\drawable\\fundo_azul.jpg"
+        "merged": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_adicionar.png.flat",
+        "source": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_adicionar.png"
     },
     {
-        "merged": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_foreground.png.flat",
-        "source": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_foreground.png"
+        "merged": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_calendar.png.flat",
+        "source": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_calendar.png"
     },
     {
-        "merged": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_quemsomos.png.flat",
-        "source": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_quemsomos.png"
+        "merged": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_calendar.xml.flat",
+        "source": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_calendar.xml"
     },
     {
-        "merged": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_main_icon_round.xml.flat",
-        "source": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_main_icon_round.xml"
+        "merged": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_main_icon.png.flat",
+        "source": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_main_icon.png"
     },
     {
-        "merged": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_adicionar.png.flat",
-        "source": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_adicionar.png"
+        "merged": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_receita.png.flat",
+        "source": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_receita.png"
     },
     {
-        "merged": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_calendar.png.flat",
-        "source": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_calendar.png"
+        "merged": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_launcher_background.png.flat",
+        "source": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_launcher_background.png"
     },
     {
-        "merged": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_email.png.flat",
-        "source": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_email.png"
+        "merged": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_localizacao.png.flat",
+        "source": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_localizacao.png"
     },
     {
-        "merged": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_exam.png.flat",
-        "source": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_exam.png"
+        "merged": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_quemsomos.png.flat",
+        "source": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_quemsomos.png"
     },
     {
-        "merged": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_user.xml.flat",
-        "source": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_user.xml"
+        "merged": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_adicionar.png.flat",
+        "source": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_adicionar.png"
     },
     {
-        "merged": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_main_icon.png.flat",
-        "source": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_main_icon.png"
+        "merged": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_email.png.flat",
+        "source": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_email.png"
     },
     {
-        "merged": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_calendar.png.flat",
-        "source": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_calendar.png"
+        "merged": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_localizacao.xml.flat",
+        "source": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_localizacao.xml"
     },
     {
-        "merged": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_calendar.png.flat",
-        "source": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_calendar.png"
+        "merged": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_user.png.flat",
+        "source": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_user.png"
     },
     {
-        "merged": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_lista.xml.flat",
-        "source": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\src\\main\\res\\layout\\fragment_lista.xml"
+        "merged": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_main_icon.png.flat",
+        "source": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\src\\main\\res\\mipmap-xhdpi\\ic_main_icon.png"
     },
     {
-        "merged": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_main_icon_round.png.flat",
-        "source": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\src\\main\\res\\mipmap-hdpi\\ic_main_icon_round.png"
+        "merged": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_user.png.flat",
+        "source": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_user.png"
     },
     {
-        "merged": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_launcher_background.png.flat",
-        "source": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_launcher_background.png"
+        "merged": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_phone.png.flat",
+        "source": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_phone.png"
     },
     {
-        "merged": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_main_icon.png.flat",
-        "source": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\src\\main\\res\\mipmap-xhdpi\\ic_main_icon.png"
+        "merged": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_receita.png.flat",
+        "source": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_receita.png"
     },
     {
-        "merged": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_foreground.png.flat",
-        "source": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_foreground.png"
+        "merged": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_main_icon_round.png.flat",
+        "source": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_main_icon_round.png"
     },
     {
-        "merged": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_terminar_sessao.xml.flat",
-        "source": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_terminar_sessao.xml"
+        "merged": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_quemsomos.png.flat",
+        "source": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_quemsomos.png"
     },
     {
-        "merged": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_main_icon_round.png.flat",
-        "source": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_main_icon_round.png"
+        "merged": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_main_icon_background.png.flat",
+        "source": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_main_icon_background.png"
     },
     {
-        "merged": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_terminar_sessao.png.flat",
-        "source": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_terminar_sessao.png"
+        "merged": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_terminar_sessao.png.flat",
+        "source": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_terminar_sessao.png"
     },
     {
-        "merged": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_receita.xml.flat",
-        "source": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_receita.xml"
+        "merged": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_main_icon_background.png.flat",
+        "source": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_main_icon_background.png"
     },
     {
-        "merged": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_email.png.flat",
-        "source": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_email.png"
+        "merged": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_terminar_sessao.png.flat",
+        "source": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_terminar_sessao.png"
     },
     {
-        "merged": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_receita.png.flat",
-        "source": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_receita.png"
+        "merged": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_main_icon.png.flat",
+        "source": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_main_icon.png"
     },
     {
-        "merged": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_terminar_sessao.png.flat",
-        "source": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_terminar_sessao.png"
+        "merged": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_info.xml.flat",
+        "source": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\src\\main\\res\\layout\\fragment_info.xml"
     },
     {
-        "merged": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_launcher_background.png.flat",
-        "source": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_launcher_background.png"
+        "merged": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_main_icon_background.png.flat",
+        "source": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_main_icon_background.png"
     },
     {
-        "merged": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_exam.png.flat",
-        "source": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_exam.png"
+        "merged": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_quemsomos.png.flat",
+        "source": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_quemsomos.png"
     },
     {
-        "merged": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_exam.png.flat",
-        "source": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_exam.png"
+        "merged": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_localizacao.png.flat",
+        "source": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_localizacao.png"
     },
     {
-        "merged": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
-        "source": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+        "merged": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_adicionar.png.flat",
+        "source": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_adicionar.png"
     },
     {
-        "merged": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_email.xml.flat",
-        "source": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_email.xml"
+        "merged": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_phone.png.flat",
+        "source": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_phone.png"
     },
     {
-        "merged": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_main_icon_background.png.flat",
-        "source": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_main_icon_background.png"
+        "merged": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_main_icon.png.flat",
+        "source": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\src\\main\\res\\mipmap-mdpi\\ic_main_icon.png"
     },
     {
-        "merged": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
-        "source": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+        "merged": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
     },
     {
-        "merged": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_quemsomos.png.flat",
-        "source": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_quemsomos.png"
+        "merged": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_email.png.flat",
+        "source": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_email.png"
     },
     {
-        "merged": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_terminar_sessao.png.flat",
-        "source": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_terminar_sessao.png"
+        "merged": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_launcher_background.xml.flat",
+        "source": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_launcher_background.xml"
     },
     {
-        "merged": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_email.png.flat",
-        "source": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_email.png"
+        "merged": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\drawable_fundo_azul.jpg.flat",
+        "source": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\src\\main\\res\\drawable\\fundo_azul.jpg"
     },
     {
-        "merged": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_launcher_background.png.flat",
-        "source": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_launcher_background.png"
+        "merged": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_adicionar.png.flat",
+        "source": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_adicionar.png"
     },
     {
-        "merged": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_main_icon_round.png.flat",
-        "source": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\src\\main\\res\\mipmap-xhdpi\\ic_main_icon_round.png"
+        "merged": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_email.png.flat",
+        "source": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_email.png"
     },
     {
-        "merged": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_launcher_background.xml.flat",
-        "source": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_launcher_background.xml"
+        "merged": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_foreground.png.flat",
-        "source": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_foreground.png"
+        "merged": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_phone.xml.flat",
+        "source": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_phone.xml"
     },
     {
-        "merged": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
-        "source": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\src\\main\\res\\layout\\activity_main.xml"
+        "merged": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_exam.png.flat",
+        "source": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_exam.png"
     },
     {
-        "merged": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_quemsomos.png.flat",
-        "source": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_quemsomos.png"
+        "merged": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_quemsomos.png.flat",
+        "source": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_quemsomos.png"
     },
     {
-        "merged": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_exam.xml.flat",
-        "source": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_exam.xml"
+        "merged": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_main_icon.png.flat",
-        "source": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\src\\main\\res\\mipmap-mdpi\\ic_main_icon.png"
+        "merged": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_email.png.flat",
+        "source": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_email.png"
     },
     {
-        "merged": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_user.png.flat",
-        "source": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_user.png"
+        "merged": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_receita.png.flat",
+        "source": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_receita.png"
     },
     {
-        "merged": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_adicionar.xml.flat",
-        "source": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_adicionar.xml"
+        "merged": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_email.png.flat",
+        "source": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_email.png"
     },
     {
-        "merged": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\menu_activity_main_drawer.xml.flat",
-        "source": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\src\\main\\res\\menu\\activity_main_drawer.xml"
+        "merged": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_main_icon_foreground.png.flat",
+        "source": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\src\\main\\res\\mipmap-xhdpi\\ic_main_icon_foreground.png"
     },
     {
-        "merged": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_user.png.flat",
-        "source": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_user.png"
+        "merged": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_lista.xml.flat",
+        "source": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\src\\main\\res\\layout\\fragment_lista.xml"
     },
     {
-        "merged": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_main_icon_background.png.flat",
-        "source": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_main_icon_background.png"
+        "merged": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_main_icon.xml.flat",
+        "source": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_main_icon.xml"
     },
     {
-        "merged": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_calendar.png.flat",
-        "source": "D:\\Android Files\\App-KindredClinic\\KIndredClinic\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_calendar.png"
+        "merged": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_adicionar.png.flat",
+        "source": "C:\\App-KindredClinic\\App-KindredClinic\\KIndredClinic\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_adicionar.png"
     }
 ]

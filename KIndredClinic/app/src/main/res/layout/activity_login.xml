@@ -66,7 +66,8 @@
         android:text="@string/login"
         android:textColor="#FFFDFD"
         android:textStyle="bold"
-        app:backgroundTint="@android:color/holo_blue_light" />
+        app:backgroundTint="@android:color/holo_blue_light"
+        android:layout_marginRight="16dp" />
 
     <Space
         android:id="@+id/space"

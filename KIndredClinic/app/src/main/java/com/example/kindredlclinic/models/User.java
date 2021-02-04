@@ -3,6 +3,7 @@ package com.example.kindredlclinic.models;
 public class User {
     private int id;
     private String username, email, password;
+    private static int autoIncrementID = 1;
 
     public User(int id, String username, String email, String password) {
         this.id = id;

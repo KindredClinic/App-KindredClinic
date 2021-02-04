@@ -24,6 +24,9 @@ import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.example.kindredlclinic.models.SingletonKindredClinic;
+import com.example.kindredlclinic.vistas.InfoFragment;
+import com.example.kindredlclinic.vistas.ListaFragment;
 import com.google.android.material.navigation.NavigationView;
 
 public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener{
@@ -114,21 +117,21 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     @Override
     public boolean onNavigationItemSelected(@NonNull MenuItem menuItem) {
 
-        /*Fragment fragment = null;
+        Fragment fragment = null;
 
         switch (menuItem.getItemId()) {
-            case R.id.nav_estadoReservas:
-                fragment = new ListaReservasFragment();
+            case R.id.nav_consultas:
+                fragment = new ListaFragment();
                 setTitle(menuItem.getTitle());
                 break;
-            case R.id.nav_servicoQuartos:
+            /*case R.id.nav_servicoQuartos:
                 fragment = new ServicoQuartosFragment();
                 setTitle(menuItem.getTitle());
                 break;
             case R.id.nav_classificacao:
                 fragment = new ClassificacaoFragment();
                 setTitle(menuItem.getTitle());
-                break;
+                break;*/
 
             case R.id.nav_quemSomos:
                 fragment = new InfoFragment();
@@ -157,7 +160,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 }
                 break;
             case R.id.nav_terminarSessao:
-                SingletonGestaoHotel.getInstance(context).idClienteNull();
+                SingletonKindredClinic.getInstance(context).idUtenteNull();
                 SharedPreferences.Editor editor = sharedPreferences.edit();
                 editor.clear();
                 editor.commit();
@@ -170,7 +173,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             // Então substitui o que lá está
             fragmentManager.beginTransaction().replace(R.id.contentFragment, fragment).commit();
         }
-        drawer.closeDrawer(GravityCompat.START);*/
+        drawer.closeDrawer(GravityCompat.START);
         return true;
 
     }
