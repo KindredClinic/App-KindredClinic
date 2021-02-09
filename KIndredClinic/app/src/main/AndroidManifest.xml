@@ -18,7 +18,12 @@
         <activity
             android:name=".MainActivity"
             android:launchMode="singleTop"
-            android:screenOrientation="portrait"/>
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"/>
+
+        <activity
+            android:name=".vistas.DetalhesConsultaActivity"
+            android:parentActivityName=".MainActivity" />
 
         <activity
             android:name=".vistas.LoginActivity">
@@ -28,6 +33,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-    </application>
 
+    </application>
 </manifest>

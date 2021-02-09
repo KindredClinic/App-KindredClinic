@@ -635,6 +635,7 @@ public class ClinicDBHelper extends SQLiteOpenHelper{
             do{
                 MarcacaoConsulta auxMarcacaoConsulta = new MarcacaoConsulta(cursor.getInt(0), cursor.getString(1), cursor.getInt(2),
                         cursor.getInt(3), cursor.getInt(4));
+                tempMarcacaoConsulta.add(auxMarcacaoConsulta);
             }while (cursor.moveToNext());
         }
         return tempMarcacaoConsulta;

@@ -39,16 +39,16 @@ public class SingletonKindredClinic implements ConsultasListener, Especialidades
 
     private String idUtente = null;
     private String mUrlAPIUSERS = "http://192.168.1.75:8081/api/users";
-    private String mUrlAPIMEDICOS = "http://192.168.1.67:8081/api/medicos";
-    private String mUrlAPIPEDIDOS = "http://192.168.1.67:8081/api/pedidos";
-    private String mUrlAPIMARCACAOCONSULTA = "http://192.168.1.67:8081/api/marcacaoconsultas";
-    private String mUrlAPIPRODUTOS = "http://192.168.1.67:8081/api/produtos";
-    private String mUrlAPITIPOPRODUTO = "http://192.168.1.67:8081/api/tipoprodutos";
-    private String mUrlAPIQUARTOS = "http://192.168.1.67:8081/api/quartos";
-    private String mUrlAPITIPOQUARTO = "http://192.168.1.67:8081/api/tipoquartos";
-    private String mUrlAPIRESERVAQUARTO = "http://192.168.1.67:8081/api/reservaquartos";
-    private String mUrlAPILINHAPRODUTO = "http://192.168.1.67:8081/api/linhaprodutos";
-    private String mUrlAPICLASSIFICACAO = "http://192.168.1.67:8081/api/classificacoes";
+    private String mUrlAPIMEDICOS = "http://192.168.1.75:8081/api/medicos";
+    private String mUrlAPICONSULTA = "http://192.168.1.75:8081/api/consultas";
+    private String mUrlAPIMARCACAOCONSULTA = "http://192.168.1.75:8081/api/marcacaoconsultas";
+    private String mUrlAPIPRODUTOS = "http://192.168.1.75:8081/api/produtos";
+    private String mUrlAPITIPOPRODUTO = "http://192.168.1.75:8081/api/tipoprodutos";
+    private String mUrlAPIQUARTOS = "http://192.168.1.75:8081/api/quartos";
+    private String mUrlAPITIPOQUARTO = "http://192.168.1.75:8081/api/tipoquartos";
+    private String mUrlAPIRESERVAQUARTO = "http://192.168.1.75:8081/api/reservaquartos";
+    private String mUrlAPILINHAPRODUTO = "http://192.168.1.75:8081/api/linhaprodutos";
+    private String mUrlAPICLASSIFICACAO = "http://192.168.1.75:8081/api/classificacoes";
 
 
 
@@ -226,6 +226,47 @@ public class SingletonKindredClinic implements ConsultasListener, Especialidades
         return null;
     }
 
+    // <----------------------------------- MARCACAO CONSULTAS ----------------------------------->
+
+    public ArrayList<MarcacaoConsulta> getMarcacaoConsultasBD() {
+        return marcacaoConsultas;
+    }
+
+    public MarcacaoConsulta getMarcacaoConsultaBD(long idMarcacao) {
+        for (MarcacaoConsulta mc : marcacaoConsultas) {
+            if (mc.getId() == idMarcacao) {
+                return mc;
+            }
+        }
+        return null;
+    }
+
+    public void adicionarMarcacaoConsultaBD(MarcacaoConsulta marcacaoConsulta) {
+        marcacaoConsultas.add(marcacaoConsulta);
+    }
+
+    public void adicionarMarcacaoConsultasBD(ArrayList<MarcacaoConsulta> marcacaoConsultas) {
+        for (MarcacaoConsulta marcacaoConsulta: marcacaoConsultas) {
+            clinicDBHelper.adicionarMarcacaoConsultaBD(marcacaoConsulta);
+        }
+    }
+
+    public void removerMarcacaoConsultaBD(int idMarcacao) {
+        MarcacaoConsulta auxMarcacao = getMarcacaoConsultaBD(idMarcacao);
+        marcacaoConsultas.remove(auxMarcacao);
+    }
+
+    public void guardarReservaBD(MarcacaoConsulta marcacaoConsulta) {
+        if (!marcacaoConsultas.contains(marcacaoConsulta)) {
+            return;
+        }
+        MarcacaoConsulta auxReserva = getMarcacaoConsultaBD(marcacaoConsulta.getId());
+        auxReserva.setDate(marcacaoConsulta.getDate());
+        auxReserva.setId_especialidade(marcacaoConsulta.getId_especialidade());
+        auxReserva.setId_medico(marcacaoConsulta.getId_medico());
+        auxReserva.setId_utente(marcacaoConsulta.getId_utente());
+        //auxReserva.setNumQuartos(reserva.getNumQuartos());
+    }
 
     //<----------------------------- Métodos para atualizarem a API ----------------------------->
 
@@ -356,11 +397,11 @@ public class SingletonKindredClinic implements ConsultasListener, Especialidades
     // <--------------------------------------- MARCACAO CONSULTAS --------------------------------------->
 
     // Vai buscar todas as Marcacoes Consultas à API
-    public void getAllPedidosAPI(final Context context, boolean isConnected){
+    public void getAllMarcacaoConsultasAPI(final Context context, boolean isConnected){
 
-        Toast.makeText(context, "ISCONNECTED: " + isConnected, Toast.LENGTH_SHORT).show();
+        //Toast.makeText(context, "ISCONNECTED: " + isConnected, Toast.LENGTH_SHORT).show();
         if(!isConnected){
-            //Toast.makeText(context, "NotConnected", Toast.LENGTH_SHORT).show();
+            Toast.makeText(context, "NotConnected", Toast.LENGTH_SHORT).show();
             marcacaoConsultas = clinicDBHelper.getAllMarcacoesConsultaBD();
 
             if(marcacaoConsultasListener != null){
@@ -373,7 +414,7 @@ public class SingletonKindredClinic implements ConsultasListener, Especialidades
                 public void onResponse(JSONArray response) {
 
                     marcacaoConsultas = MarcacaoConsultaJsonParser.parserJsonMarcacaoConsulta(response, context);
-                    //adicionarPedidosBD(pedidos);
+                    // adicionarMarcacaoConsultasBD(marcacaoConsultas);
 
                     if(marcacaoConsultasListener != null){
                         marcacaoConsultasListener.onRefreshListaMarcacaoConsultas(marcacaoConsultas);
@@ -383,7 +424,7 @@ public class SingletonKindredClinic implements ConsultasListener, Especialidades
             }, new Response.ErrorListener() {
                 @Override
                 public void onErrorResponse(VolleyError error) {
-                    //System.out.println("--> ERRO: getAllReservasAPI: " + error.getMessage());
+                    System.out.println("--> ERRO: getAllMarcacaoConsultasAPI: " + error.getMessage());
                 }
             }){
                 @Override
@@ -408,13 +449,11 @@ public class SingletonKindredClinic implements ConsultasListener, Especialidades
                 }
 
             };
-
-
             volleyQueue.add(req);
         }
     }
 
-    public void adicionarMarcacaoConsultaAPI(final MarcacaoConsulta marcacaoConsulta, final Context context){
+    public void adicionarMarcacaoConsultaAPI(final MarcacaoConsulta marcacaoConsulta, final Context context, final String username, final String password){
 
         StringRequest req = new StringRequest(Request.Method.POST, mUrlAPIMARCACAOCONSULTA, new Response.Listener<String>() {
             @Override
@@ -470,7 +509,7 @@ public class SingletonKindredClinic implements ConsultasListener, Especialidades
     }
 
     // Atualiza a Marcacao na API
-    public void editarMarcacaoAPI(final MarcacaoConsulta marcacaoConsulta, final Context context){
+    public void editarMarcacaoAPI(final MarcacaoConsulta marcacaoConsulta, final Context context, final String username, final String password){
 
         StringRequest req = new StringRequest(Request.Method.PUT, mUrlAPIMARCACAOCONSULTA + '/' + marcacaoConsulta.getId(), new Response.Listener<String>() {
             @Override

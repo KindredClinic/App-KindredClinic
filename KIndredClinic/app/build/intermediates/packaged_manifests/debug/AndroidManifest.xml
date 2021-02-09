@@ -25,7 +25,11 @@
         <activity
             android:name="com.example.kindredlclinic.MainActivity"
             android:launchMode="singleTop"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.kindredlclinic.vistas.DetalhesConsultaActivity"
+            android:parentActivityName="com.example.kindredlclinic.MainActivity" />
         <activity android:name="com.example.kindredlclinic.vistas.LoginActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

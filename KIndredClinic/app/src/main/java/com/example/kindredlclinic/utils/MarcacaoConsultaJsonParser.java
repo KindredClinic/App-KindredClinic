@@ -29,7 +29,7 @@ public class MarcacaoConsultaJsonParser {
 
                 int idMarConsulta = marConsulta.getInt("id");
                 String data = marConsulta.getString("date");
-                int idEspecialidade = marConsulta.getInt("id_marcacao");
+                int idEspecialidade = marConsulta.getInt("id_especialidade");
                 int idMedico = marConsulta.getInt("id_medico");
                 int idUtente = marConsulta.getInt("id_utente");
 

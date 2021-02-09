@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\App-KindredClinic\App-KindredClinic\KIndredClinic\app\src\main\AndroidManifest.xml:2:1-33:12
-INJECTED from C:\App-KindredClinic\App-KindredClinic\KIndredClinic\app\src\main\AndroidManifest.xml:2:1-33:12
-INJECTED from C:\App-KindredClinic\App-KindredClinic\KIndredClinic\app\src\main\AndroidManifest.xml:2:1-33:12
-INJECTED from C:\App-KindredClinic\App-KindredClinic\KIndredClinic\app\src\main\AndroidManifest.xml:2:1-33:12
+ADDED from C:\App-KindredClinic\App-KindredClinic\KIndredClinic\app\src\main\AndroidManifest.xml:2:1-38:12
+INJECTED from C:\App-KindredClinic\App-KindredClinic\KIndredClinic\app\src\main\AndroidManifest.xml:2:1-38:12
+INJECTED from C:\App-KindredClinic\App-KindredClinic\KIndredClinic\app\src\main\AndroidManifest.xml:2:1-38:12
+INJECTED from C:\App-KindredClinic\App-KindredClinic\KIndredClinic\app\src\main\AndroidManifest.xml:2:1-38:12
 MERGED from [com.android.volley:volley:1.1.1] C:\Users\Afonso Araújo\.gradle\caches\transforms-2\files-2.1\0a124b7f79cff69024413d4ed039b30c\jetified-volley-1.1.1\AndroidManifest.xml:2:1-11:12
 MERGED from [com.github.bumptech.glide:glide:4.10.0] C:\Users\Afonso Araújo\.gradle\caches\transforms-2\files-2.1\efb0318a3168b8a2e384b54bbc3121c0\jetified-glide-4.10.0\AndroidManifest.xml:2:1-12:12
 MERGED from [com.google.android.material:material:1.1.0] C:\Users\Afonso Araújo\.gradle\caches\transforms-2\files-2.1\c9350c4470b6f4895016aaf418fed985\material-1.1.0\AndroidManifest.xml:17:1-24:12
@@ -44,22 +44,22 @@ MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\Afonso Araújo\.grad
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Afonso Araújo\.gradle\caches\transforms-2\files-2.1\aaff256ac919a45448a380ca9a0003ca\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Afonso Araújo\.gradle\caches\transforms-2\files-2.1\06bc4641de51b04d4df94808d6e05292\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Afonso Araújo\.gradle\caches\transforms-2\files-2.1\1b64911e987df0fea019408e241659d7\core-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
-INJECTED from C:\App-KindredClinic\App-KindredClinic\KIndredClinic\app\src\main\AndroidManifest.xml:2:1-33:12
-INJECTED from C:\App-KindredClinic\App-KindredClinic\KIndredClinic\app\src\main\AndroidManifest.xml:2:1-33:12
-INJECTED from C:\App-KindredClinic\App-KindredClinic\KIndredClinic\app\src\main\AndroidManifest.xml:2:1-33:12
+INJECTED from C:\App-KindredClinic\App-KindredClinic\KIndredClinic\app\src\main\AndroidManifest.xml:2:1-38:12
+INJECTED from C:\App-KindredClinic\App-KindredClinic\KIndredClinic\app\src\main\AndroidManifest.xml:2:1-38:12
+INJECTED from C:\App-KindredClinic\App-KindredClinic\KIndredClinic\app\src\main\AndroidManifest.xml:2:1-38:12
 	package
 		ADDED from C:\App-KindredClinic\App-KindredClinic\KIndredClinic\app\src\main\AndroidManifest.xml:4:5-41
 		INJECTED from C:\App-KindredClinic\App-KindredClinic\KIndredClinic\app\src\main\AndroidManifest.xml
 		INJECTED from C:\App-KindredClinic\App-KindredClinic\KIndredClinic\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\App-KindredClinic\App-KindredClinic\KIndredClinic\app\src\main\AndroidManifest.xml
-		ADDED from C:\App-KindredClinic\App-KindredClinic\KIndredClinic\app\src\main\AndroidManifest.xml:2:1-33:12
+		ADDED from C:\App-KindredClinic\App-KindredClinic\KIndredClinic\app\src\main\AndroidManifest.xml:2:1-38:12
 		INJECTED from C:\App-KindredClinic\App-KindredClinic\KIndredClinic\app\src\main\AndroidManifest.xml
 	xmlns:tools
 		ADDED from C:\App-KindredClinic\App-KindredClinic\KIndredClinic\app\src\main\AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from C:\App-KindredClinic\App-KindredClinic\KIndredClinic\app\src\main\AndroidManifest.xml
-		ADDED from C:\App-KindredClinic\App-KindredClinic\KIndredClinic\app\src\main\AndroidManifest.xml:2:1-33:12
+		ADDED from C:\App-KindredClinic\App-KindredClinic\KIndredClinic\app\src\main\AndroidManifest.xml:2:1-38:12
 		INJECTED from C:\App-KindredClinic\App-KindredClinic\KIndredClinic\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\App-KindredClinic\App-KindredClinic\KIndredClinic\app\src\main\AndroidManifest.xml:2:11-69
@@ -72,7 +72,7 @@ ADDED from C:\App-KindredClinic\App-KindredClinic\KIndredClinic\app\src\main\And
 	android:name
 		ADDED from C:\App-KindredClinic\App-KindredClinic\KIndredClinic\app\src\main\AndroidManifest.xml:6:22-64
 application
-ADDED from C:\App-KindredClinic\App-KindredClinic\KIndredClinic\app\src\main\AndroidManifest.xml:8:5-31:19
+ADDED from C:\App-KindredClinic\App-KindredClinic\KIndredClinic\app\src\main\AndroidManifest.xml:8:5-37:19
 MERGED from [com.android.volley:volley:1.1.1] C:\Users\Afonso Araújo\.gradle\caches\transforms-2\files-2.1\0a124b7f79cff69024413d4ed039b30c\jetified-volley-1.1.1\AndroidManifest.xml:9:5-20
 MERGED from [com.android.volley:volley:1.1.1] C:\Users\Afonso Araújo\.gradle\caches\transforms-2\files-2.1\0a124b7f79cff69024413d4ed039b30c\jetified-volley-1.1.1\AndroidManifest.xml:9:5-20
 MERGED from [com.github.bumptech.glide:glide:4.10.0] C:\Users\Afonso Araújo\.gradle\caches\transforms-2\files-2.1\efb0318a3168b8a2e384b54bbc3121c0\jetified-glide-4.10.0\AndroidManifest.xml:10:5-20
@@ -104,27 +104,35 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Af
 	android:usesCleartextTraffic
 		ADDED from C:\App-KindredClinic\App-KindredClinic\KIndredClinic\app\src\main\AndroidManifest.xml:16:9-44
 activity#com.example.kindredlclinic.MainActivity
-ADDED from C:\App-KindredClinic\App-KindredClinic\KIndredClinic\app\src\main\AndroidManifest.xml:18:9-21:51
+ADDED from C:\App-KindredClinic\App-KindredClinic\KIndredClinic\app\src\main\AndroidManifest.xml:18:9-22:58
 	android:screenOrientation
 		ADDED from C:\App-KindredClinic\App-KindredClinic\KIndredClinic\app\src\main\AndroidManifest.xml:21:13-49
 	android:launchMode
 		ADDED from C:\App-KindredClinic\App-KindredClinic\KIndredClinic\app\src\main\AndroidManifest.xml:20:13-43
+	android:theme
+		ADDED from C:\App-KindredClinic\App-KindredClinic\KIndredClinic\app\src\main\AndroidManifest.xml:22:13-56
 	android:name
 		ADDED from C:\App-KindredClinic\App-KindredClinic\KIndredClinic\app\src\main\AndroidManifest.xml:19:13-41
+activity#com.example.kindredlclinic.vistas.DetalhesConsultaActivity
+ADDED from C:\App-KindredClinic\App-KindredClinic\KIndredClinic\app\src\main\AndroidManifest.xml:24:9-26:58
+	android:parentActivityName
+		ADDED from C:\App-KindredClinic\App-KindredClinic\KIndredClinic\app\src\main\AndroidManifest.xml:26:13-55
+	android:name
+		ADDED from C:\App-KindredClinic\App-KindredClinic\KIndredClinic\app\src\main\AndroidManifest.xml:25:13-60
 activity#com.example.kindredlclinic.vistas.LoginActivity
-ADDED from C:\App-KindredClinic\App-KindredClinic\KIndredClinic\app\src\main\AndroidManifest.xml:23:9-30:20
+ADDED from C:\App-KindredClinic\App-KindredClinic\KIndredClinic\app\src\main\AndroidManifest.xml:28:9-35:20
 	android:name
-		ADDED from C:\App-KindredClinic\App-KindredClinic\KIndredClinic\app\src\main\AndroidManifest.xml:24:13-49
+		ADDED from C:\App-KindredClinic\App-KindredClinic\KIndredClinic\app\src\main\AndroidManifest.xml:29:13-49
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\App-KindredClinic\App-KindredClinic\KIndredClinic\app\src\main\AndroidManifest.xml:25:13-29:29
+ADDED from C:\App-KindredClinic\App-KindredClinic\KIndredClinic\app\src\main\AndroidManifest.xml:30:13-34:29
 action#android.intent.action.MAIN
-ADDED from C:\App-KindredClinic\App-KindredClinic\KIndredClinic\app\src\main\AndroidManifest.xml:26:17-69
+ADDED from C:\App-KindredClinic\App-KindredClinic\KIndredClinic\app\src\main\AndroidManifest.xml:31:17-69
 	android:name
-		ADDED from C:\App-KindredClinic\App-KindredClinic\KIndredClinic\app\src\main\AndroidManifest.xml:26:25-66
+		ADDED from C:\App-KindredClinic\App-KindredClinic\KIndredClinic\app\src\main\AndroidManifest.xml:31:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\App-KindredClinic\App-KindredClinic\KIndredClinic\app\src\main\AndroidManifest.xml:28:17-77
+ADDED from C:\App-KindredClinic\App-KindredClinic\KIndredClinic\app\src\main\AndroidManifest.xml:33:17-77
 	android:name
-		ADDED from C:\App-KindredClinic\App-KindredClinic\KIndredClinic\app\src\main\AndroidManifest.xml:28:27-74
+		ADDED from C:\App-KindredClinic\App-KindredClinic\KIndredClinic\app\src\main\AndroidManifest.xml:33:27-74
 uses-sdk
 INJECTED from C:\App-KindredClinic\App-KindredClinic\KIndredClinic\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\App-KindredClinic\App-KindredClinic\KIndredClinic\app\src\main\AndroidManifest.xml

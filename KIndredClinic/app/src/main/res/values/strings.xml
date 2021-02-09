@@ -32,4 +32,8 @@
     <string name="password_invalida">Password Inválida</string>
     <string name="registar">Registar</string>
     <string name="registar_voltar">Voltar</string>
+    <string name="offline">Offline</string>
+    <string name="cancelar_consulta">Cancelar Consulta</string>
+    <string name="procurar_consulta">Procurar</string>
+    <string name="getId">\" nª: \" + consulta.getId()</string>
 </resources>
