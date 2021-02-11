@@ -23,6 +23,7 @@ import com.example.kindredlclinic.listeners.UsersListener;
 import com.example.kindredlclinic.listeners.UtentesListener;
 import com.example.kindredlclinic.utils.ConsultaJsonParser;
 import com.example.kindredlclinic.utils.MarcacaoConsultaJsonParser;
+import com.example.kindredlclinic.utils.ReceitaMedicaJsonParser;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -38,11 +39,11 @@ public class SingletonKindredClinic implements ConsultasListener, Especialidades
     private static RequestQueue volleyQueue = null;
 
     private String idUtente = null;
-    private String mUrlAPIUSERS = "http://192.168.1.75:8081/api/users";
+    private String mUrlAPIUSERS = "http://192.168.0.12:8081/api/users";
     private String mUrlAPIMEDICOS = "http://192.168.1.75:8081/api/medicos";
     private String mUrlAPICONSULTA = "http://192.168.1.75:8081/api/consultas";
-    private String mUrlAPIMARCACAOCONSULTA = "http://192.168.1.75:8081/api/marcacaoconsultas";
-    private String mUrlAPIPRODUTOS = "http://192.168.1.75:8081/api/produtos";
+    private String mUrlAPIMARCACAOCONSULTA = "http://192.168.0.12:8081/api/marcacaoconsultas";
+    private String mUrlAPIRECEITA = "http://192.168.0.12:8081/api/receita";
     private String mUrlAPITIPOPRODUTO = "http://192.168.1.75:8081/api/tipoprodutos";
     private String mUrlAPIQUARTOS = "http://192.168.1.75:8081/api/quartos";
     private String mUrlAPITIPOQUARTO = "http://192.168.1.75:8081/api/tipoquartos";
@@ -266,6 +267,48 @@ public class SingletonKindredClinic implements ConsultasListener, Especialidades
         auxReserva.setId_medico(marcacaoConsulta.getId_medico());
         auxReserva.setId_utente(marcacaoConsulta.getId_utente());
         //auxReserva.setNumQuartos(reserva.getNumQuartos());
+    }
+
+    // <----------------------------------- RECEITAS ----------------------------------->
+
+    public ArrayList<ReceitaMedica> getReceitaMedicasBD(){
+        return receitaMedicas;
+    }
+
+    public ReceitaMedica getReceitaMedicaBD(long idReceita){
+        for(ReceitaMedica rm : receitaMedicas){
+            if(rm.getId() == idReceita){
+                return rm;
+            }
+        }
+        return null;
+    }
+
+    public void adicionarReceitaMedicaBD(ReceitaMedica receitaMedica){
+        receitaMedicas.add(receitaMedica);
+    }
+
+    public void adicionarReceitaMedicaBD(ArrayList<ReceitaMedica> receitaMedicas){
+        for(ReceitaMedica receitaMedica: receitaMedicas){
+            clinicDBHelper.adicionarReceitaMedicaBD(receitaMedica);
+        }
+    }
+
+    public void removerReceitaMedicaBD(int idReceita){
+        ReceitaMedica auxReceita = getReceitaMedicaBD(idReceita);
+        receitaMedicas.remove(auxReceita);
+    }
+
+    public void guardarReceitaBD(ReceitaMedica receitaMedica){
+        if(!receitaMedicas.contains(receitaMedica)){
+            return;
+        }
+        ReceitaMedica auxReceita = getReceitaMedicaBD(receitaMedica.getId());
+        auxReceita.setDate(receitaMedica.getDate());
+        auxReceita.setConteudo(receitaMedica.getConteudo());
+        auxReceita.setId_medico(receitaMedica.getId_medico());
+        auxReceita.setId_utente(receitaMedica.getId_utente());
+        auxReceita.setId_medicamento(receitaMedica.getId_medicamento());
     }
 
     //<----------------------------- Métodos para atualizarem a API ----------------------------->
@@ -608,6 +651,140 @@ public class SingletonKindredClinic implements ConsultasListener, Especialidades
         }
 
     }
+
+    // <----------------------------------- RECEITAS ----------------------------------->
+
+    // Vai buscar as consultas todas à API
+    public void getAllReceitasAPI(final Context context, boolean isConnected){
+
+        //Toast.makeText(context, "ISCONNECTED: " + isConnected, Toast.LENGTH_SHORT).show();
+        if(!isConnected){
+            Toast.makeText(context, "Dispositivo Offline", Toast.LENGTH_SHORT).show();
+            receitaMedicas = clinicDBHelper.getAllReceitaMedicaBD();
+
+            if(receitasMedicasListener != null){
+                receitasMedicasListener.onRefreshListaReceitaMedica(receitaMedicas);
+            }
+        } else {
+            JsonArrayRequest req = new JsonArrayRequest(Request.Method.GET, mUrlAPIRECEITA, null, new Response.Listener<JSONArray>() {
+                @Override
+                public void onResponse(JSONArray response) {
+
+                    receitaMedicas = ReceitaMedicaJsonParser.parserJsonResulta(response, context);
+                    //System.out.println("--> RESPOSTA: " + response);
+                    //adicionarConsultasBD(consultas);
+
+                    if(receitasMedicasListener != null){
+                        receitasMedicasListener.onRefreshListaReceitaMedica(receitaMedicas);
+                    }
+
+                }
+            }, new Response.ErrorListener() {
+                @Override
+                public void onErrorResponse(VolleyError error) {
+                    System.out.println("--> ERRO: getAllConsultasAPI: " + error.getMessage());
+                }
+            }){
+                @Override
+                public Map<String, String> getHeaders() throws AuthFailureError {
+
+                    String loginString = user + ":" + pass;
+
+                    byte[] loginStringBytes = null;
+
+                    try {
+                        loginStringBytes = loginString.getBytes("UTF-8");
+                    } catch (UnsupportedEncodingException e) {
+                        e.printStackTrace();
+                    }
+
+                    String loginStringb64 = Base64.encodeToString(loginStringBytes, Base64.NO_WRAP);
+
+                    //  Authorization: Basic $auth
+                    HashMap<String, String> headers = new HashMap<String, String>();
+                    headers.put("Authorization", "Basic " + loginStringb64);
+                    return headers;
+                }
+
+            };
+            volleyQueue.add(req);
+        }
+
+    }
+
+    public void adicionarReceitasAPI(final ReceitaMedica receitaMedica, final Context context, final String username, final String password){
+
+        StringRequest req = new StringRequest(Request.Method.POST, mUrlAPIRECEITA, new Response.Listener<String>() {
+            @Override
+            public void onResponse(String response) {
+
+                System.out.println("--> RESPOSTA ADD POST: " + response);
+
+                if(receitasMedicasListener != null){
+                    receitasMedicasListener.onUpdateListaReceitaMedicaBD(ReceitaMedicaJsonParser.parserJsonResulta(response, context), 1);
+                }
+
+            }
+        }, new Response.ErrorListener() {
+            @Override
+            public void onErrorResponse(VolleyError error) {
+                System.out.println("--> ERRO: adicionarReceitaMedicaAPI: " + error.getMessage());
+            }
+        }){
+            protected Map<String, String> getParams(){
+
+                Map<String, String> params = new HashMap<>();
+                params.put("date", receitaMedica.getDate() + "");
+                params.put("id_medico", receitaMedica.getId_medico() + "");
+                params.put("id_utente", receitaMedica.getId_utente() + "");
+                params.put("id_medicamentos", receitaMedica.getId_medicamento() + "");
+
+                return params;
+            }
+        };
+        volleyQueue.add(req);
+    }
+
+    // Atualiza a Marcacao na API
+    public void editarReceitaAPI(final ReceitaMedica receitaMedica, final Context context, final String username, final String password){
+
+        StringRequest req = new StringRequest(Request.Method.PUT, mUrlAPIRECEITA, new Response.Listener<String>() {
+            @Override
+            public void onResponse(String response) {
+
+                System.out.println("--> editarReceitaAPI: " + response);
+
+                if(receitasMedicasListener != null){
+                    receitasMedicasListener.onUpdateListaReceitaMedicaBD(ReceitaMedicaJsonParser.parserJsonResulta(response, context), 2);
+                }
+            }
+        }, new Response.ErrorListener() {
+            @Override
+            public void onErrorResponse(VolleyError error) {
+
+                System.out.println("--> ERRO: editarMarcacaoAPI: " + error.getMessage());
+            }
+        }){
+            protected Map<String, String> getParams(){
+
+                Map<String, String> params = new HashMap<>();
+                params.put("date", receitaMedica.getDate() + "");
+                params.put("id_medico", receitaMedica.getId_medico() + "");
+                params.put("id_utente", receitaMedica.getId_utente() + "");
+                params.put("id_medicamentos", receitaMedica.getId_medicamento() + "");
+
+                return params;
+            }
+        };
+        volleyQueue.add(req);
+    }
+
+
+    public void setReceitasListener(ReceitasMedicasListener receitasMedicasListener){
+
+        this.receitasMedicasListener = receitasMedicasListener;
+    }
+
 
 
 

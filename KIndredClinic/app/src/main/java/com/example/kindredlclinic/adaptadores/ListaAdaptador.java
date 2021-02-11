@@ -7,7 +7,6 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.TextView;
 
-import com.example.kindredlclinic.models.Consulta;
 import com.example.kindredlclinic.R;
 import com.example.kindredlclinic.models.MarcacaoConsulta;
 
@@ -69,9 +68,9 @@ public class ListaAdaptador extends BaseAdapter {
         // ID's do layout item_reserva
         public ViewHolderLista(View convertView){
 
-            idConsulta = convertView.findViewById(R.id.tvIdReserva);
+            idConsulta = convertView.findViewById(R.id.tvIdReceita);
             date = convertView.findViewById(R.id.tvNumQuartos);
-            medico = convertView.findViewById(R.id.tvDataEntrada);
+            medico = convertView.findViewById(R.id.tvDataReceitas);
 
         }
 

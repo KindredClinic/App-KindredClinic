@@ -1,7 +1,6 @@
 package com.example.kindredlclinic;
 
 import androidx.annotation.NonNull;
-import androidx.appcompat.app.ActionBarDrawerToggle;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 import androidx.core.app.ActivityCompat;
@@ -27,6 +26,7 @@ import android.widget.Toast;
 import com.example.kindredlclinic.models.SingletonKindredClinic;
 import com.example.kindredlclinic.vistas.InfoFragment;
 import com.example.kindredlclinic.vistas.ListaFragment;
+import com.example.kindredlclinic.vistas.ReceitaFragment;
 import com.google.android.material.navigation.NavigationView;
 
 public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener{
@@ -132,6 +132,11 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 fragment = new ClassificacaoFragment();
                 setTitle(menuItem.getTitle());
                 break;*/
+
+            case R.id.nav_receitas:
+                fragment = new ReceitaFragment();
+                setTitle(menuItem.getTitle());
+                break;
 
             case R.id.nav_quemSomos:
                 fragment = new InfoFragment();

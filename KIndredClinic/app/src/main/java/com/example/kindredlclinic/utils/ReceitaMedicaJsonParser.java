@@ -17,7 +17,7 @@ public class ReceitaMedicaJsonParser {
 
 
     // Devolve um Array de ReceitaMedica vindo da API
-    public static ArrayList<ReceitaMedica> parserJsonConsultas(JSONArray response, Context context){
+    public static ArrayList<ReceitaMedica> parserJsonResulta(JSONArray response, Context context){
 
         System.out.println("--> ReceitaMedicaJsonParser: " + response);
         ArrayList<ReceitaMedica> tempListaReceitaMedica = new ArrayList<ReceitaMedica>();
@@ -30,7 +30,7 @@ public class ReceitaMedicaJsonParser {
                 int idReceita = receita.getInt("id");
                 String date = receita.getString("date");                               // Nomes
                 String conteudo = receita.getString("conteudo");                       // iguais aos
-                int id_medicamento = receita.getInt("id_medicamento");                       // que estão
+                int id_medicamento = receita.getInt("id_medicamentos");                       // que estão
                 int id_medico = receita.getInt("id_medico");                           // na API
                 int id_utente = receita.getInt("id_utente");
 
@@ -49,7 +49,7 @@ public class ReceitaMedicaJsonParser {
 
 
     // Devolve uma Reserva vinda da API
-    public static ReceitaMedica parserJsonConsultas(String response, Context context){
+    public static ReceitaMedica parserJsonResulta(String response, Context context){
 
         System.out.println("--> PARSER ADICIONAR: " + response);
         ReceitaMedica auxReceitaMedica = null;
@@ -60,7 +60,7 @@ public class ReceitaMedicaJsonParser {
             int idReceita = receita.getInt("id");
             String date = receita.getString("date");                               // Nomes
             String conteudo = receita.getString("conteudo");                       // iguais aos
-            int id_medicamento = receita.getInt("id_medicamento");                       // que estão
+            int id_medicamento = receita.getInt("id_medicamentos");                       // que estão
             int id_medico = receita.getInt("id_medico");                           // na API
             int id_utente = receita.getInt("id_utente");
 

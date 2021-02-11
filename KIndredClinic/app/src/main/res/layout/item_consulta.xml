@@ -43,7 +43,7 @@
                         android:orientation="horizontal">
 
                         <TextView
-                            android:id="@+id/tvReservaEstado"
+                            android:id="@+id/tvReceitaEstado"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
@@ -53,7 +53,7 @@
                             android:gravity="end" />
 
                         <TextView
-                            android:id="@+id/tvIdReserva"
+                            android:id="@+id/tvIdReceita"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
@@ -78,7 +78,7 @@
                             android:textStyle="bold" />
 
                         <TextView
-                            android:id="@+id/tvDataEntrada"
+                            android:id="@+id/tvDataReceitas"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1" />
@@ -98,7 +98,7 @@
                             android:textStyle="bold" />
 
                         <TextView
-                            android:id="@+id/tvDataSaida"
+                            android:id="@+id/tvMedicoReceita"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1" />
