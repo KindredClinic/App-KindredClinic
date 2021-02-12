@@ -35,8 +35,7 @@ public class DetalhesConsultaActivity extends AppCompatActivity {
     public static final String CHAVE_ID = "idConsulta";
 
     private int idConsulta;
-    private Spinner spMedico, spEspecialidade;
-    private TextView data;
+    private TextView data, medico, especialidade;
     private MarcacaoConsulta marcacao;
     private FloatingActionButton fab;
     private SharedPreferences sharedPreferences;
@@ -54,9 +53,9 @@ public class DetalhesConsultaActivity extends AppCompatActivity {
 
         setContentView(R.layout.activity_detalhes_consulta);
 
-        data = findViewById(R.id.tvQuarto);
-        spMedico = findViewById(R.id.spMedico);
-        spEspecialidade = findViewById(R.id.spEspecialidade);
+        data = findViewById(R.id.tvConsultaData);
+        medico = findViewById(R.id.tvConsultaMedico);
+        especialidade = findViewById(R.id.tvConsultaEspecialidade);
         fab = findViewById(R.id.fab);
 
         // Recebe o id da marcacao consulta como parâmentro e vai buscar a marcacao ao SingletonGestaoHotel pelo id
@@ -72,12 +71,11 @@ public class DetalhesConsultaActivity extends AppCompatActivity {
             System.out.println("--> adicionar");
             fab.setImageResource(R.drawable.ic_adicionar);
         } else {
-            spMedico.setEnabled(false);
-            spEspecialidade.setEnabled(false);
+
             //System.out.println("--> Reserva: detalhes  " + idReserva);
             mostrarReserva(idConsulta);
             //System.out.println("Reserva: " + idReserva);
-            fab.setImageResource(R.drawable.ic_alterar);
+           // fab.setImageResource(R.drawable.ic_alterar);
         }
 
         /*/// <----------------------------Calendario--------------------------------->
@@ -134,7 +132,7 @@ public class DetalhesConsultaActivity extends AppCompatActivity {
         int quartoC = Integer.parseInt(quartosCasal.getText().toString());
 */
 
-        MarcacaoConsulta auxiliar = new MarcacaoConsulta(0, "teste date", Integer.parseInt(spEspecialidade.toString()), 0, 0);
+        MarcacaoConsulta auxiliar = new MarcacaoConsulta(0, "teste date", Integer.parseInt(especialidade.toString()), 0, 0);
         System.out.println("--> Marcacao Consulta" + auxiliar);
         return auxiliar;
     }
@@ -142,8 +140,8 @@ public class DetalhesConsultaActivity extends AppCompatActivity {
     private MarcacaoConsulta editarConsulta(){
 
         consultaSelecionada.setDate(data.getText().toString());
-        consultaSelecionada.setId_medico(Integer.parseInt(spMedico.toString()));
-        consultaSelecionada.setId_especialidade(Integer.parseInt(spEspecialidade.toString()));
+        consultaSelecionada.setId_medico(Integer.parseInt(medico.toString()));
+        consultaSelecionada.setId_especialidade(Integer.parseInt(especialidade.toString()));
 
         return consultaSelecionada;
     }
@@ -155,8 +153,8 @@ public class DetalhesConsultaActivity extends AppCompatActivity {
         System.out.println("--> ConsultaSelecionada: " + consultaSelecionada);
         //setTitle("Reserva");
         data.setText( consultaSelecionada.getDate());
-        spMedico.setId(consultaSelecionada.getId_medico());
-        spEspecialidade.setId(consultaSelecionada.getId_especialidade());
+        medico.setText(String.valueOf(consultaSelecionada.getId_medico()));
+        especialidade.setText(String.valueOf(consultaSelecionada.getId_especialidade()));
     }
 
 

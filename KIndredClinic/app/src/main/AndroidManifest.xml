@@ -30,6 +30,9 @@
             android:parentActivityName=".MainActivity" />
 
         <activity
+            android:name=".vistas.UtenteActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
             android:name=".vistas.LoginActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

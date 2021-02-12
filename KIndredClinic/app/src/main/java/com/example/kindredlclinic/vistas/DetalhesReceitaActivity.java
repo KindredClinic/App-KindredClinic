@@ -1,10 +1,12 @@
 package com.example.kindredlclinic.vistas;
 
 import android.app.DatePickerDialog;
+import android.content.Context;
 import android.content.DialogInterface;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.text.Html;
+import android.util.Base64;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
@@ -18,6 +20,11 @@ import androidx.annotation.Nullable;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.android.volley.AuthFailureError;
+import com.android.volley.Request;
+import com.android.volley.Response;
+import com.android.volley.VolleyError;
+import com.android.volley.toolbox.StringRequest;
 import com.example.kindredlclinic.R;
 import com.example.kindredlclinic.models.Consulta;
 import com.example.kindredlclinic.models.MarcacaoConsulta;
@@ -26,7 +33,13 @@ import com.example.kindredlclinic.models.SingletonKindredClinic;
 import com.example.kindredlclinic.utils.ConsultaJsonParser;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import java.io.UnsupportedEncodingException;
 import java.util.Calendar;
+import java.util.HashMap;
+import java.util.Map;
 
 
 public class DetalhesReceitaActivity extends AppCompatActivity {

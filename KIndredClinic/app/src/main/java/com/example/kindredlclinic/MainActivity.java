@@ -24,9 +24,11 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.kindredlclinic.models.SingletonKindredClinic;
+import com.example.kindredlclinic.vistas.DetalhesConsultaActivity;
 import com.example.kindredlclinic.vistas.InfoFragment;
 import com.example.kindredlclinic.vistas.ListaFragment;
 import com.example.kindredlclinic.vistas.ReceitaFragment;
+import com.example.kindredlclinic.vistas.UtenteActivity;
 import com.google.android.material.navigation.NavigationView;
 
 public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener{
@@ -120,6 +122,13 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         Fragment fragment = null;
 
         switch (menuItem.getItemId()) {
+
+            case R.id.nav_perfil:
+                Intent utente = new Intent(context, UtenteActivity.class);
+                context.startActivity(utente);
+               // setTitle(menuItem.getTitle());
+                break;
+
             case R.id.nav_consultas:
                 fragment = new ListaFragment();
                 setTitle(menuItem.getTitle());

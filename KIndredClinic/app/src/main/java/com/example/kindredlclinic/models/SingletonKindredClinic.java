@@ -10,6 +10,7 @@ import com.android.volley.RequestQueue;
 import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.JsonArrayRequest;
+import com.android.volley.toolbox.JsonObjectRequest;
 import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
 import com.example.kindredlclinic.listeners.ConsultasListener;
@@ -24,6 +25,7 @@ import com.example.kindredlclinic.listeners.UtentesListener;
 import com.example.kindredlclinic.utils.ConsultaJsonParser;
 import com.example.kindredlclinic.utils.MarcacaoConsultaJsonParser;
 import com.example.kindredlclinic.utils.ReceitaMedicaJsonParser;
+import com.example.kindredlclinic.utils.UtenteJsonParser;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -39,11 +41,12 @@ public class SingletonKindredClinic implements ConsultasListener, Especialidades
     private static RequestQueue volleyQueue = null;
 
     private String idUtente = null;
-    private String mUrlAPIUSERS = "http://192.168.1.75:8081/api/users";
-    private String mUrlAPIMEDICOS = "http://192.168.1.75:8081/api/medicos";
+    private String mUrlAPIUSERS = "http://192.168.0.12:8081/api/users";
+    private String mUrlAPIMEDICOS = "http://192.168.0.12:8081/api/medicos";
     private String mUrlAPICONSULTA = "http://192.168.1.75:8081/api/consultas";
-    private String mUrlAPIMARCACAOCONSULTA = "http://192.168.1.75:8081/api/marcacaoconsultas";
-    private String mUrlAPIRECEITA = "http://192.168.1.75:8081/api/receita";
+    private String mUrlAPIMARCACAOCONSULTA = "http://192.168.0.12:8081/api/marcacaoconsultas";
+    private String mUrlAPIRECEITA = "http://192.168.0.12:8081/api/receita";
+    private String mUrlAPIUTENTE = "http://192.168.0.12:8081/api/utentes";
     private String mUrlAPITIPOPRODUTO = "http://192.168.1.75:8081/api/tipoprodutos";
     private String mUrlAPIQUARTOS = "http://192.168.1.75:8081/api/quartos";
     private String mUrlAPITIPOQUARTO = "http://192.168.1.75:8081/api/tipoquartos";
@@ -585,12 +588,10 @@ public class SingletonKindredClinic implements ConsultasListener, Especialidades
     }
 
 
-
     public void setMarcacaoConsultasListener(MarcacaoConsultasListener marcacaoConsultasListener){
 
         this.marcacaoConsultasListener = marcacaoConsultasListener;
     }
-
 
     // <----------------------------------- MEDICOS ----------------------------------->
 
@@ -650,6 +651,76 @@ public class SingletonKindredClinic implements ConsultasListener, Especialidades
             volleyQueue.add(req);
         }
 
+    }
+
+    // <----------------------------------- UTENTES  ----------------------------------->
+
+    public JSONObject getAllUtentesAPI(final Context context, boolean isConnected) {
+        JSONObject save = new JSONObject();
+        //Toast.makeText(context, "Is Connected", Toast.LENGTH_SHORT).show();
+        if(!isConnected){
+            Toast.makeText(context, "Offline", Toast.LENGTH_SHORT).show();
+            utentes = clinicDBHelper.getAllUtentesBD();
+
+            if(utentesListener != null){
+                utentesListener.onRefreshListaUtente(utentes);
+            }
+        }else {
+            StringRequest stringRequest = new StringRequest(Request.Method.GET, mUrlAPIUTENTE,
+                    new Response.Listener<String>() {
+                        @Override
+                        public void onResponse(String response) {
+                            //System.out.println("-->" + response);
+                            JSONObject jsonObject = null;
+                            try {
+                                jsonObject = new JSONObject(response);
+                                save.put("nome",jsonObject.getString("nome"));
+                                save.put("nif",jsonObject.getString("nif"));
+                                save.put("sexo",jsonObject.getString("sexo"));
+                                save.put("telemovel",jsonObject.getString("telemovel"));
+                                save.put("morada",jsonObject.getString("morada"));
+                                save.put("email",jsonObject.getString("email"));
+                                save.put("num_sns",jsonObject.getString("num_sns"));
+                                //System.out.println("--> save " + save);
+                                //idUtente = jsonObject.getString("id");
+
+                            } catch (JSONException e) {
+                                e.printStackTrace();
+                            }
+
+                            //System.out.println("--> id: " + jsonObject);
+
+                            System.out.println("--> OK");
+                        }
+                    }, new Response.ErrorListener() {
+                @Override
+                public void onErrorResponse(VolleyError error) {
+                    System.out.println("--> Error: Invalido - " + error.getMessage());
+                }
+            }) {
+                @Override
+                public Map<String, String> getHeaders() throws AuthFailureError {
+                    String loginString = user + ":" + pass;
+
+                    byte[] loginStringBytes = null;
+
+                    try {
+                        loginStringBytes = loginString.getBytes("UTF-8");
+                    } catch (UnsupportedEncodingException e) {
+                        e.printStackTrace();
+                    }
+
+                    String loginStringb64 = Base64.encodeToString(loginStringBytes, Base64.NO_WRAP);
+
+                    //  Authorization: Basic $auth
+                    HashMap<String, String> headers = new HashMap<String, String>();
+                    headers.put("Authorization", "Basic " + loginStringb64);
+                    return headers;
+                }
+            };
+            volleyQueue.add(stringRequest);
+        }
+        return save;
     }
 
     // <----------------------------------- RECEITAS ----------------------------------->

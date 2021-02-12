@@ -47,11 +47,12 @@
                             android:text="Data:"
                             android:textSize="18sp" />
 
-                        <Spinner
-                            android:id="@+id/spQuarto"
+                        <TextView
+                            android:id="@+id/tvConsultaData"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:layout_weight="0" />
+                            android:layout_weight="0"
+                            android:textSize="18sp" />
 
                     </LinearLayout>
 
@@ -71,10 +72,12 @@
                             android:text="Medico"
                             android:textSize="18sp" />
 
-                        <Spinner
-                            android:id="@+id/spMedico"
+                        <TextView
+                            android:id="@+id/tvConsultaMedico"
                             android:layout_width="match_parent"
-                            android:layout_height="wrap_content" />
+                            android:layout_height="wrap_content"
+                            android:textSize="18sp" />
+
                     </LinearLayout>
 
                     <Space
@@ -93,10 +96,12 @@
                             android:text="Especialidade"
                             android:textSize="18sp" />
 
-                        <Spinner
-                            android:id="@+id/spEspecialidade"
+                        <TextView
+                            android:id="@+id/tvConsultaEspecialidade"
                             android:layout_width="match_parent"
-                            android:layout_height="wrap_content" />
+                            android:layout_height="wrap_content"
+                            android:textSize="18sp" />
+
                     </LinearLayout>
 
                     <Space
