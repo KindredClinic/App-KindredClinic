@@ -11,6 +11,7 @@ import android.view.View;
 import android.widget.DatePicker;
 import android.widget.EditText;
 import android.widget.Spinner;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
@@ -35,8 +36,7 @@ public class DetalhesConsultaActivity extends AppCompatActivity {
 
     private int idConsulta;
     private Spinner spMedico, spEspecialidade;
-    private EditText data;
-    private Consulta consulta;
+    private TextView data;
     private MarcacaoConsulta marcacao;
     private FloatingActionButton fab;
     private SharedPreferences sharedPreferences;
@@ -54,7 +54,7 @@ public class DetalhesConsultaActivity extends AppCompatActivity {
 
         setContentView(R.layout.activity_detalhes_consulta);
 
-        //data = findViewById(R.id.spQuarto);
+        data = findViewById(R.id.tvQuarto);
         spMedico = findViewById(R.id.spMedico);
         spEspecialidade = findViewById(R.id.spEspecialidade);
         fab = findViewById(R.id.fab);
@@ -80,7 +80,7 @@ public class DetalhesConsultaActivity extends AppCompatActivity {
             fab.setImageResource(R.drawable.ic_alterar);
         }
 
-        /// <----------------------------Calendario--------------------------------->
+        /*/// <----------------------------Calendario--------------------------------->
         ////God all mighty https://www.youtube.com/watch?v=-mJmScTAWyQ
         ///Tem que ter a EditText android:focusable="false" para resultar
 
@@ -103,7 +103,7 @@ public class DetalhesConsultaActivity extends AppCompatActivity {
                 datePickerDialog.getDatePicker().setMinDate(System.currentTimeMillis());
                 datePickerDialog.show();
             }
-        });
+        });*/
 
         // <----------------------------------Fab------------------------------------->
 
@@ -149,12 +149,12 @@ public class DetalhesConsultaActivity extends AppCompatActivity {
     }
 
 
-    private void  mostrarReserva(int idReserva){
+    private void  mostrarReserva(int idConsulta){
 
         consultaSelecionada = SingletonKindredClinic.getInstance(getApplicationContext()).getMarcacaoConsultaBD(idConsulta);
         System.out.println("--> ConsultaSelecionada: " + consultaSelecionada);
         //setTitle("Reserva");
-        //data.setText(consultaSelecionada.getDate());
+        data.setText( consultaSelecionada.getDate());
         spMedico.setId(consultaSelecionada.getId_medico());
         spEspecialidade.setId(consultaSelecionada.getId_especialidade());
     }

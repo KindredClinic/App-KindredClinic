@@ -39,11 +39,11 @@ public class SingletonKindredClinic implements ConsultasListener, Especialidades
     private static RequestQueue volleyQueue = null;
 
     private String idUtente = null;
-    private String mUrlAPIUSERS = "http://192.168.0.12:8081/api/users";
+    private String mUrlAPIUSERS = "http://192.168.1.75:8081/api/users";
     private String mUrlAPIMEDICOS = "http://192.168.1.75:8081/api/medicos";
     private String mUrlAPICONSULTA = "http://192.168.1.75:8081/api/consultas";
-    private String mUrlAPIMARCACAOCONSULTA = "http://192.168.0.12:8081/api/marcacaoconsultas";
-    private String mUrlAPIRECEITA = "http://192.168.0.12:8081/api/receita";
+    private String mUrlAPIMARCACAOCONSULTA = "http://192.168.1.75:8081/api/marcacaoconsultas";
+    private String mUrlAPIRECEITA = "http://192.168.1.75:8081/api/receita";
     private String mUrlAPITIPOPRODUTO = "http://192.168.1.75:8081/api/tipoprodutos";
     private String mUrlAPIQUARTOS = "http://192.168.1.75:8081/api/quartos";
     private String mUrlAPITIPOQUARTO = "http://192.168.1.75:8081/api/tipoquartos";
