@@ -18,7 +18,7 @@
 12-->D:\Android Files\App-KindredClinic\KIndredClinic\app\src\main\AndroidManifest.xml:6:22-64
 13
 14    <application
-14-->D:\Android Files\App-KindredClinic\KIndredClinic\app\src\main\AndroidManifest.xml:8:5-44:19
+14-->D:\Android Files\App-KindredClinic\KIndredClinic\app\src\main\AndroidManifest.xml:8:5-48:19
 15        android:allowBackup="true"
 15-->D:\Android Files\App-KindredClinic\KIndredClinic\app\src\main\AndroidManifest.xml:10:9-35
 16        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -61,24 +61,30 @@
 35-->D:\Android Files\App-KindredClinic\KIndredClinic\app\src\main\AndroidManifest.xml:30:13-55
 36        <activity
 36-->D:\Android Files\App-KindredClinic\KIndredClinic\app\src\main\AndroidManifest.xml:32:9-34:58
-37            android:name="com.example.kindredlclinic.vistas.UtenteActivity"
-37-->D:\Android Files\App-KindredClinic\KIndredClinic\app\src\main\AndroidManifest.xml:33:13-50
+37            android:name="com.example.kindredlclinic.vistas.DetalhesExameActivity"
+37-->D:\Android Files\App-KindredClinic\KIndredClinic\app\src\main\AndroidManifest.xml:33:13-57
 38            android:parentActivityName="com.example.kindredlclinic.MainActivity" />
 38-->D:\Android Files\App-KindredClinic\KIndredClinic\app\src\main\AndroidManifest.xml:34:13-55
-39        <activity android:name="com.example.kindredlclinic.vistas.LoginActivity" >
-39-->D:\Android Files\App-KindredClinic\KIndredClinic\app\src\main\AndroidManifest.xml:35:9-42:20
-39-->D:\Android Files\App-KindredClinic\KIndredClinic\app\src\main\AndroidManifest.xml:36:13-49
-40            <intent-filter>
-40-->D:\Android Files\App-KindredClinic\KIndredClinic\app\src\main\AndroidManifest.xml:37:13-41:29
-41                <action android:name="android.intent.action.MAIN" />
-41-->D:\Android Files\App-KindredClinic\KIndredClinic\app\src\main\AndroidManifest.xml:38:17-69
-41-->D:\Android Files\App-KindredClinic\KIndredClinic\app\src\main\AndroidManifest.xml:38:25-66
-42
-43                <category android:name="android.intent.category.LAUNCHER" />
-43-->D:\Android Files\App-KindredClinic\KIndredClinic\app\src\main\AndroidManifest.xml:40:17-77
-43-->D:\Android Files\App-KindredClinic\KIndredClinic\app\src\main\AndroidManifest.xml:40:27-74
-44            </intent-filter>
-45        </activity>
-46    </application>
-47
-48</manifest>
+39        <activity
+39-->D:\Android Files\App-KindredClinic\KIndredClinic\app\src\main\AndroidManifest.xml:36:9-38:58
+40            android:name="com.example.kindredlclinic.vistas.UtenteActivity"
+40-->D:\Android Files\App-KindredClinic\KIndredClinic\app\src\main\AndroidManifest.xml:37:13-50
+41            android:parentActivityName="com.example.kindredlclinic.MainActivity" />
+41-->D:\Android Files\App-KindredClinic\KIndredClinic\app\src\main\AndroidManifest.xml:38:13-55
+42        <activity android:name="com.example.kindredlclinic.vistas.LoginActivity" >
+42-->D:\Android Files\App-KindredClinic\KIndredClinic\app\src\main\AndroidManifest.xml:39:9-46:20
+42-->D:\Android Files\App-KindredClinic\KIndredClinic\app\src\main\AndroidManifest.xml:40:13-49
+43            <intent-filter>
+43-->D:\Android Files\App-KindredClinic\KIndredClinic\app\src\main\AndroidManifest.xml:41:13-45:29
+44                <action android:name="android.intent.action.MAIN" />
+44-->D:\Android Files\App-KindredClinic\KIndredClinic\app\src\main\AndroidManifest.xml:42:17-69
+44-->D:\Android Files\App-KindredClinic\KIndredClinic\app\src\main\AndroidManifest.xml:42:25-66
+45
+46                <category android:name="android.intent.category.LAUNCHER" />
+46-->D:\Android Files\App-KindredClinic\KIndredClinic\app\src\main\AndroidManifest.xml:44:17-77
+46-->D:\Android Files\App-KindredClinic\KIndredClinic\app\src\main\AndroidManifest.xml:44:27-74
+47            </intent-filter>
+48        </activity>
+49    </application>
+50
+51</manifest>

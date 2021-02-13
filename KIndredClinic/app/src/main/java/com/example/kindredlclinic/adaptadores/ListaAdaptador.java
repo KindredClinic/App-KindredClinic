@@ -64,13 +64,15 @@ public class ListaAdaptador extends BaseAdapter {
         private TextView idConsulta;
         private TextView medico;
         private TextView date;
+        private TextView status;
 
         // ID's do layout item_reserva
         public ViewHolderLista(View convertView){
 
-            idConsulta = convertView.findViewById(R.id.tvIdReceita);
-            date = convertView.findViewById(R.id.tvNumQuartos);
-            medico = convertView.findViewById(R.id.tvDataReceitas);
+            idConsulta = convertView.findViewById(R.id.tvIdMarcacao);
+            date = convertView.findViewById(R.id.tvDataMarcacao);
+            medico = convertView.findViewById(R.id.tvMedicoMarcacao);
+            status = convertView.findViewById(R.id.tvStatusMarcacao);
 
         }
 
@@ -78,6 +80,7 @@ public class ListaAdaptador extends BaseAdapter {
             idConsulta.setText(String.valueOf(consulta.getId()));
             medico.setText(String.valueOf(consulta.getId_medico()));
             date.setText(String.valueOf(consulta.getDate()));
+            status.setText(consulta.getStatus());
         }
     }
 }

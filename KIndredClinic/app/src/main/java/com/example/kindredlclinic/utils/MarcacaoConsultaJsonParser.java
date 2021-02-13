@@ -32,8 +32,9 @@ public class MarcacaoConsultaJsonParser {
                 int idEspecialidade = marConsulta.getInt("id_especialidade");
                 int idMedico = marConsulta.getInt("id_medico");
                 int idUtente = marConsulta.getInt("id_utente");
+                String status = marConsulta.getString("status");
 
-                MarcacaoConsulta auxMarcacaoCon = new MarcacaoConsulta(idMarConsulta,data,idEspecialidade,idMedico,idUtente);
+                MarcacaoConsulta auxMarcacaoCon = new MarcacaoConsulta(idMarConsulta,data,idEspecialidade,idMedico,idUtente,status);
 
                 tempListaMarcacao.add(auxMarcacaoCon);
             }
@@ -61,8 +62,9 @@ public class MarcacaoConsultaJsonParser {
             int idEspecialidade = marConsulta.getInt("id_marcacao");
             int idMedico = marConsulta.getInt("id_medico");
             int idUtente = marConsulta.getInt("id_utente");
+            String status = marConsulta.getString("status");
 
-            auxConsulta = new MarcacaoConsulta(idMarConsulta, data, idEspecialidade, idMedico, idUtente);
+            auxConsulta = new MarcacaoConsulta(idMarConsulta, data, idEspecialidade, idMedico, idUtente,status);
 
         }
         catch (JSONException e)

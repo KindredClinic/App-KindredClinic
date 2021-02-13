@@ -22,6 +22,7 @@ public class ClinicDBHelper extends SQLiteOpenHelper{
     private static final String TABLE_MEDICAMENTOS = "Medicamentos";
     private static final String TABLE_ESPECIALIDADE = "Especialidade";
     private static final String TABLE_MARCACAOCONSULTA = "Marcacaoconsulta";
+    private static final String TABLE_MARCACAOEXAME = "Marcacaoexame";
     
     ///Campos da Tabela User
     private static final String ID = "id";
@@ -84,9 +85,19 @@ public class ClinicDBHelper extends SQLiteOpenHelper{
     ///Campos da Tabela Marcacao Consulta
     private static final String ID_MARCACAO_CONSULTA = "id";
     private static final String MARCACAO_CONSULTA_DATE = "date";
-    private static final String MARCACAO_CONSULTA_ID_ESPECIALIDADE = "id_marcacao";
+    private static final String MARCACAO_CONSULTA_ID_ESPECIALIDADE = "id_especialidade";
     private static final String MARCACAO_CONSULTA_ID_MEDICO = "id_medico";
     private static final String MARCACAO_CONSULTA_ID_UTENTE = "id_utente";
+    private static final String MARCACAO_CONSULTA_STATUS = "status";
+
+    ///Campos da Tabela Marcacao Exame
+    private static final String ID_MARCACAO_EXAME = "id";
+    private static final String MARCACAO_EXAME_DATE = "date";
+    private static final String MARCACAO_EXAME_ID_ESPECIALIDADE = "id_especialidade";
+    private static final String MARCACAO_EXAME_ID_MEDICO = "id_medico";
+    private static final String MARCACAO_EXAME_ID_UTENTE = "id_utente";
+    private static final String MARCACAO_EXAME_STATUS = "status";
+
 
     private SQLiteDatabase database;
 
@@ -172,8 +183,18 @@ public class ClinicDBHelper extends SQLiteOpenHelper{
                 + MARCACAO_CONSULTA_DATE + " TEXT NOT NULL, "
                 + MARCACAO_CONSULTA_ID_ESPECIALIDADE + " TEXT NOT NULL, "
                 + MARCACAO_CONSULTA_ID_MEDICO + " TEXT NOT NULL, "
-                + MARCACAO_CONSULTA_ID_UTENTE + " TEXT NOT NULL);";
+                + MARCACAO_CONSULTA_ID_UTENTE + " TEXT NOT NULL, "
+                + MARCACAO_CONSULTA_STATUS + " TEXT NOT NULL);";
         db.execSQL(createMarcacaoConsultaTable);
+
+        String createMarcacaoExameTable = "CREATE TABLE " + TABLE_MARCACAOEXAME
+                + "(" + ID_MARCACAO_EXAME + " INTEGER PRIMARY KEY AUTOINCREMENT, "
+                + MARCACAO_EXAME_DATE + " TEXT NOT NULL, "
+                + MARCACAO_EXAME_ID_ESPECIALIDADE + " TEXT NOT NULL, "
+                + MARCACAO_EXAME_ID_MEDICO + " TEXT NOT NULL, "
+                + MARCACAO_EXAME_ID_UTENTE + " TEXT NOT NULL, "
+                + MARCACAO_EXAME_STATUS + " TEXT NOT NULL);";
+        db.execSQL(createMarcacaoExameTable);
     }
 
     @Override
@@ -186,6 +207,7 @@ public class ClinicDBHelper extends SQLiteOpenHelper{
         db.execSQL("DROP TABLE IF EXISTS " + TABLE_MEDICAMENTOS);
         db.execSQL("DROP TABLE IF EXISTS " + TABLE_ESPECIALIDADE);
         db.execSQL("DROP TABLE IF EXISTS " + TABLE_MARCACAOCONSULTA);
+        db.execSQL("DROP TABLE IF EXISTS " + TABLE_MARCACAOEXAME);
         db.execSQL("DROP TABLE IF EXISTS " + TABLE_USER);
         this.onCreate(db);
     }
@@ -629,12 +651,13 @@ public class ClinicDBHelper extends SQLiteOpenHelper{
                 MARCACAO_CONSULTA_DATE,
                 MARCACAO_CONSULTA_ID_MEDICO,
                 MARCACAO_CONSULTA_ID_ESPECIALIDADE,
-                MARCACAO_CONSULTA_ID_UTENTE},null,null,null,null,null);
+                MARCACAO_CONSULTA_ID_UTENTE,
+                MARCACAO_CONSULTA_STATUS},null,null,null,null,null);
 
         if(cursor.moveToNext()){
             do{
                 MarcacaoConsulta auxMarcacaoConsulta = new MarcacaoConsulta(cursor.getInt(0), cursor.getString(1), cursor.getInt(2),
-                        cursor.getInt(3), cursor.getInt(4));
+                        cursor.getInt(3), cursor.getInt(4), cursor.getString(5));
                 tempMarcacaoConsulta.add(auxMarcacaoConsulta);
             }while (cursor.moveToNext());
         }
@@ -649,6 +672,7 @@ public class ClinicDBHelper extends SQLiteOpenHelper{
         values.put(MARCACAO_CONSULTA_ID_MEDICO, marcacaoConsulta.getId_medico());
         values.put(MARCACAO_CONSULTA_ID_ESPECIALIDADE, marcacaoConsulta.getId_especialidade());
         values.put(MARCACAO_CONSULTA_ID_UTENTE, marcacaoConsulta.getId_utente());
+        values.put(MARCACAO_CONSULTA_STATUS, marcacaoConsulta.getStatus());
 
         this.database.insert(TABLE_MARCACAOCONSULTA, null , values);
     }
@@ -661,6 +685,7 @@ public class ClinicDBHelper extends SQLiteOpenHelper{
         values.put(MARCACAO_CONSULTA_ID_MEDICO, marcacaoConsulta.getId_medico());
         values.put(MARCACAO_CONSULTA_ID_ESPECIALIDADE, marcacaoConsulta.getId_especialidade());
         values.put(MARCACAO_CONSULTA_ID_UTENTE, marcacaoConsulta.getId_utente());
+        values.put(MARCACAO_CONSULTA_STATUS, marcacaoConsulta.getStatus());
 
         return this.database.update(TABLE_MARCACAOCONSULTA, values, "id = ?", new String[]{"" + marcacaoConsulta.getId()}) > 0;
     }
@@ -671,5 +696,41 @@ public class ClinicDBHelper extends SQLiteOpenHelper{
 
     public void removerALLMarcacoesConsultaDB(){
         this.database.delete(TABLE_MARCACAOCONSULTA, null, null);
+    }
+
+    // <------------------- MARCACAO EXAME ------------------->
+
+    public ArrayList<MarcacaoExame> getAllMarcacoesExameBD(){
+        ArrayList<MarcacaoExame> tempMarcacaoExame = new ArrayList<>();
+
+        Cursor cursor = this.database.query(TABLE_MARCACAOEXAME, new String[]{
+                ID_MARCACAO_EXAME,
+                MARCACAO_EXAME_DATE,
+                MARCACAO_EXAME_ID_MEDICO,
+                MARCACAO_EXAME_ID_ESPECIALIDADE,
+                MARCACAO_EXAME_ID_UTENTE,
+                MARCACAO_CONSULTA_STATUS},null,null,null,null,null);
+
+        if(cursor.moveToNext()){
+            do{
+                MarcacaoExame auxMarcacaoExame = new MarcacaoExame(cursor.getInt(0), cursor.getString(1), cursor.getInt(2),
+                        cursor.getInt(3), cursor.getInt(4), cursor.getString(5));
+                tempMarcacaoExame.add(auxMarcacaoExame);
+            }while (cursor.moveToNext());
+        }
+        return tempMarcacaoExame;
+    }
+
+    public void adicionarMarcacaoExameBD(MarcacaoExame marcacaoExame){
+
+        ContentValues values = new ContentValues();
+        values.put(ID_MARCACAO_EXAME, marcacaoExame.getId());
+        values.put(MARCACAO_EXAME_DATE, marcacaoExame.getDate());
+        values.put(MARCACAO_EXAME_ID_MEDICO, marcacaoExame.getId_medico());
+        values.put(MARCACAO_EXAME_ID_ESPECIALIDADE, marcacaoExame.getId_especialidade());
+        values.put(MARCACAO_EXAME_ID_UTENTE, marcacaoExame.getId_utente());
+        values.put(MARCACAO_EXAME_STATUS, marcacaoExame.getId_utente());
+
+        this.database.insert(TABLE_MARCACAOEXAME, null , values);
     }
 }

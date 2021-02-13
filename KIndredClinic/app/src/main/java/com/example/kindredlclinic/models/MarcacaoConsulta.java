@@ -3,16 +3,17 @@ package com.example.kindredlclinic.models;
 public class MarcacaoConsulta {
 
     private int id;
-    private String date;
+    private String date, status;
 
     private int id_especialidade, id_medico, id_utente;
 
-    public MarcacaoConsulta(int id, String date, int id_especialidade, int id_medico, int id_utente) {
+    public MarcacaoConsulta(int id, String date, int id_especialidade, int id_medico, int id_utente, String status) {
         this.id = id;
         this.date = date;
         this.id_especialidade = id_especialidade;
         this.id_medico = id_medico;
         this.id_utente = id_utente;
+        this.status = status;
     }
 
     public int getId() {
@@ -53,5 +54,13 @@ public class MarcacaoConsulta {
 
     public void setId_utente(int id_utente) {
         this.id_utente = id_utente;
+    }
+
+    public String getStatus() {
+        return status;
+    }
+
+    public void setStatus(String status) {
+        this.status = status;
     }
 }

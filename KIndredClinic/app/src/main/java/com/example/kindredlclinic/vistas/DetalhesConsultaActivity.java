@@ -35,7 +35,7 @@ public class DetalhesConsultaActivity extends AppCompatActivity {
     public static final String CHAVE_ID = "idConsulta";
 
     private int idConsulta;
-    private TextView data, medico, especialidade;
+    private TextView data, medico, especialidade, status;
     private MarcacaoConsulta marcacao;
     private FloatingActionButton fab;
     private SharedPreferences sharedPreferences;
@@ -56,6 +56,7 @@ public class DetalhesConsultaActivity extends AppCompatActivity {
         data = findViewById(R.id.tvConsultaData);
         medico = findViewById(R.id.tvConsultaMedico);
         especialidade = findViewById(R.id.tvConsultaEspecialidade);
+        status = findViewById(R.id.tvConsultaStatus);
         fab = findViewById(R.id.fab);
 
         // Recebe o id da marcacao consulta como parâmentro e vai buscar a marcacao ao SingletonGestaoHotel pelo id
@@ -132,7 +133,7 @@ public class DetalhesConsultaActivity extends AppCompatActivity {
         int quartoC = Integer.parseInt(quartosCasal.getText().toString());
 */
 
-        MarcacaoConsulta auxiliar = new MarcacaoConsulta(0, "teste date", Integer.parseInt(especialidade.toString()), 0, 0);
+        MarcacaoConsulta auxiliar = new MarcacaoConsulta(0, "teste date", Integer.parseInt(especialidade.toString()), 0, 0, "hi");
         System.out.println("--> Marcacao Consulta" + auxiliar);
         return auxiliar;
     }
@@ -155,6 +156,7 @@ public class DetalhesConsultaActivity extends AppCompatActivity {
         data.setText( consultaSelecionada.getDate());
         medico.setText(String.valueOf(consultaSelecionada.getId_medico()));
         especialidade.setText(String.valueOf(consultaSelecionada.getId_especialidade()));
+        status.setText(consultaSelecionada.getStatus());
     }
 
 

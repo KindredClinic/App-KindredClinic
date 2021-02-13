@@ -17,6 +17,7 @@ import com.example.kindredlclinic.listeners.ConsultasListener;
 import com.example.kindredlclinic.listeners.EspecialidadesListener;
 import com.example.kindredlclinic.listeners.ExamesListener;
 import com.example.kindredlclinic.listeners.MarcacaoConsultasListener;
+import com.example.kindredlclinic.listeners.MarcacaoExamesListener;
 import com.example.kindredlclinic.listeners.MedicamentosListener;
 import com.example.kindredlclinic.listeners.MedicosListener;
 import com.example.kindredlclinic.listeners.ReceitasMedicasListener;
@@ -24,6 +25,7 @@ import com.example.kindredlclinic.listeners.UsersListener;
 import com.example.kindredlclinic.listeners.UtentesListener;
 import com.example.kindredlclinic.utils.ConsultaJsonParser;
 import com.example.kindredlclinic.utils.MarcacaoConsultaJsonParser;
+import com.example.kindredlclinic.utils.MarcacaoExameJsonParser;
 import com.example.kindredlclinic.utils.ReceitaMedicaJsonParser;
 import com.example.kindredlclinic.utils.UtenteJsonParser;
 
@@ -43,7 +45,7 @@ public class SingletonKindredClinic implements ConsultasListener, Especialidades
     private String idUtente = null;
     private String mUrlAPIUSERS = "http://192.168.0.12:8081/api/users";
     private String mUrlAPIMEDICOS = "http://192.168.0.12:8081/api/medicos";
-    private String mUrlAPICONSULTA = "http://192.168.1.75:8081/api/consultas";
+    private String mUrlAPIMARCACAOEXAME = "http://192.168.0.12:8081/api/marcacaoexames";
     private String mUrlAPIMARCACAOCONSULTA = "http://192.168.0.12:8081/api/marcacaoconsultas";
     private String mUrlAPIRECEITA = "http://192.168.0.12:8081/api/receita";
     private String mUrlAPIUTENTE = "http://192.168.0.12:8081/api/utentes";
@@ -62,6 +64,7 @@ public class SingletonKindredClinic implements ConsultasListener, Especialidades
     private ArrayList<Consulta> consultas;
     private ArrayList<Exame> exames;
     private ArrayList<MarcacaoConsulta> marcacaoConsultas;
+    private ArrayList<MarcacaoExame> marcacaoExames;
     private ArrayList<Medicamentos> medicamentos;
     private ArrayList<ReceitaMedica> receitaMedicas;
     private ArrayList<Especialidade> especialidades;
@@ -73,6 +76,7 @@ public class SingletonKindredClinic implements ConsultasListener, Especialidades
     private ConsultasListener consultasListener;
     private EspecialidadesListener especialidadesListener;
     private ExamesListener examesListener;
+    private MarcacaoExamesListener marcacaoExamesListener;
     private MarcacaoConsultasListener marcacaoConsultasListener;
     private MedicamentosListener medicamentosListener;
     private MedicosListener medicosListener;
@@ -99,6 +103,7 @@ public class SingletonKindredClinic implements ConsultasListener, Especialidades
         consultas = new ArrayList<>();
         exames = new ArrayList<>();
         marcacaoConsultas = new ArrayList<>();
+        marcacaoExames = new ArrayList<>();
         medicamentos = new ArrayList<>();
         receitaMedicas = new ArrayList<>();
         especialidades = new ArrayList<>();
@@ -269,7 +274,23 @@ public class SingletonKindredClinic implements ConsultasListener, Especialidades
         auxReserva.setId_especialidade(marcacaoConsulta.getId_especialidade());
         auxReserva.setId_medico(marcacaoConsulta.getId_medico());
         auxReserva.setId_utente(marcacaoConsulta.getId_utente());
+        auxReserva.setStatus(marcacaoConsulta.getStatus());
         //auxReserva.setNumQuartos(reserva.getNumQuartos());
+    }
+
+    // <----------------------------------- MARCACAO EXAMES ----------------------------------->
+
+    public ArrayList<MarcacaoExame> getMarcacaoExamesBD(){
+        return marcacaoExames;
+    }
+
+    public MarcacaoExame getMarcacaoExameBD(long idExame){
+        for (MarcacaoExame mx : marcacaoExames){
+            if(mx.getId() == idExame){
+                return  mx;
+            }
+        }
+        return null;
     }
 
     // <----------------------------------- RECEITAS ----------------------------------->
@@ -587,10 +608,138 @@ public class SingletonKindredClinic implements ConsultasListener, Especialidades
         volleyQueue.add(req);
     }
 
-
     public void setMarcacaoConsultasListener(MarcacaoConsultasListener marcacaoConsultasListener){
 
         this.marcacaoConsultasListener = marcacaoConsultasListener;
+    }
+
+    // <--------------------------------------- MARCACAO EXAMES --------------------------------------->
+
+    // Vai buscar todas as Marcacoes Exames à API
+    public void getAllMarcacaoExamesAPI(final Context context, boolean isConnected){
+
+        //Toast.makeText(context, "ISCONNECTED: " + isConnected, Toast.LENGTH_SHORT).show();
+        if(!isConnected){
+            Toast.makeText(context, "NotConnected", Toast.LENGTH_SHORT).show();
+            marcacaoExames = clinicDBHelper.getAllMarcacoesExameBD();
+
+            if(marcacaoExamesListener != null){
+                marcacaoExamesListener.onRefreshListaMarcacaoExames(marcacaoExames);
+            }
+        } else {
+            //Toast.makeText(context, "Connected", Toast.LENGTH_SHORT).show();
+            JsonArrayRequest req = new JsonArrayRequest(Request.Method.GET, mUrlAPIMARCACAOEXAME, null, new Response.Listener<JSONArray>() {
+                @Override
+                public void onResponse(JSONArray response) {
+
+                    marcacaoExames = MarcacaoExameJsonParser.parserJsonMarcacaoExame(response, context);
+                    // adicionarMarcacaoConsultasBD(marcacaoConsultas);
+
+                    if(marcacaoExamesListener != null){
+                        marcacaoExamesListener.onRefreshListaMarcacaoExames(marcacaoExames);
+                    }
+
+                }
+            }, new Response.ErrorListener() {
+                @Override
+                public void onErrorResponse(VolleyError error) {
+                    System.out.println("--> ERRO: getAllMarcacaoExamesAPI: " + error.getMessage());
+                }
+            }){
+                @Override
+                public Map<String, String> getHeaders() throws AuthFailureError {
+
+                    String loginString = user + ":" + pass;
+
+                    byte[] loginStringBytes = null;
+
+                    try {
+                        loginStringBytes = loginString.getBytes("UTF-8");
+                    } catch (UnsupportedEncodingException e) {
+                        e.printStackTrace();
+                    }
+
+                    String loginStringb64 = Base64.encodeToString(loginStringBytes, Base64.NO_WRAP);
+
+                    //  Authorization: Basic $auth
+                    HashMap<String, String> headers = new HashMap<String, String>();
+                    headers.put("Authorization", "Basic " + loginStringb64);
+                    return headers;
+                }
+
+            };
+            volleyQueue.add(req);
+        }
+    }
+
+    public void adicionarMarcacaoExameAPI(final MarcacaoExame marcacaoExame, final Context context, final String username, final String password){
+
+        StringRequest req = new StringRequest(Request.Method.POST, mUrlAPIMARCACAOEXAME, new Response.Listener<String>() {
+            @Override
+            public void onResponse(String response) {
+
+                System.out.println("--> RESPOSTA ADD POST: " + response);
+
+                if(marcacaoExamesListener != null){
+                    marcacaoExamesListener.onUpdateListaMarcacaoExamesBD(MarcacaoExameJsonParser.parserJsonMarcacaoExame(response, context), 1);
+                }
+
+            }
+        }, new Response.ErrorListener() {
+            @Override
+            public void onErrorResponse(VolleyError error) {
+                System.out.println("--> ERRO: adicionarMarcacaoExameAPI: " + error.getMessage());
+            }
+        }){
+            protected Map<String, String> getParams(){
+
+                Map<String, String> params = new HashMap<>();
+                params.put("date", marcacaoExame.getDate() + "");
+                params.put("id_medico", marcacaoExame.getId_medico() + "");
+                params.put("id_especialidade", marcacaoExame.getId_especialidade() + "");
+
+                return params;
+            }
+        };
+        volleyQueue.add(req);
+    }
+
+    // Atualiza a Marcacao na API
+    public void editarMarcacaoExameAPI(final MarcacaoExame marcacaoExame, final Context context, final String username, final String password){
+
+        StringRequest req = new StringRequest(Request.Method.PUT, mUrlAPIMARCACAOEXAME + '/' + marcacaoExame.getId(), new Response.Listener<String>() {
+            @Override
+            public void onResponse(String response) {
+
+                System.out.println("--> editarMarcacaoExameAPI: " + response);
+
+                if(marcacaoExamesListener != null){
+                    marcacaoExamesListener.onUpdateListaMarcacaoExamesBD(MarcacaoExameJsonParser.parserJsonMarcacaoExame(response, context), 2);
+                }
+            }
+        }, new Response.ErrorListener() {
+            @Override
+            public void onErrorResponse(VolleyError error) {
+
+                System.out.println("--> ERRO: editarMarcacaoExameAPI: " + error.getMessage());
+            }
+        }){
+            protected Map<String, String> getParams(){
+
+                Map<String, String> params = new HashMap<>();
+                params.put("date", marcacaoExame.getDate() + "");
+                params.put("id_medico", marcacaoExame.getId_medico() + "");
+                params.put("id_especialidade", marcacaoExame.getId_especialidade() + "");
+
+                return params;
+            }
+        };
+        volleyQueue.add(req);
+    }
+
+    public void setMarcacaoExamesListener(MarcacaoExamesListener marcacaoExamesListener){
+
+        this.marcacaoExamesListener = marcacaoExamesListener;
     }
 
     // <----------------------------------- MEDICOS ----------------------------------->

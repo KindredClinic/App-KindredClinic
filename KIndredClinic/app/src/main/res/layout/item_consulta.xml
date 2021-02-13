@@ -47,13 +47,13 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
-                            android:text="Reserva"
+                            android:gravity="end"
+                            android:text="Marcação: "
                             android:textAlignment="textEnd"
-                            android:textStyle="bold"
-                            android:gravity="end" />
+                            android:textStyle="bold" />
 
                         <TextView
-                            android:id="@+id/tvIdReceita"
+                            android:id="@+id/tvIdMarcacao"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
@@ -74,11 +74,11 @@
                             android:id="@+id/textView"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Data de Entrada: "
+                            android:text="Data: "
                             android:textStyle="bold" />
 
                         <TextView
-                            android:id="@+id/tvDataReceitas"
+                            android:id="@+id/tvDataMarcacao"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1" />
@@ -94,11 +94,11 @@
                             android:id="@+id/textView7"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Data de Saída: "
+                            android:text="Medico: "
                             android:textStyle="bold" />
 
                         <TextView
-                            android:id="@+id/tvMedicoReceita"
+                            android:id="@+id/tvMedicoMarcacao"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1" />
@@ -113,34 +113,14 @@
                             android:id="@+id/textView9"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Quartos: "
+                            android:text="Status: "
                             android:textStyle="bold" />
 
                         <TextView
-                            android:id="@+id/tvNumQuartos"
+                            android:id="@+id/tvStatusMarcacao"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1" />
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:orientation="horizontal">
-
-                        <TextView
-                            android:id="@+id/textView12"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="Número de Pessoas: "
-                            android:textStyle="bold" />
-
-                        <TextView
-                            android:id="@+id/tvNumPessoas"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="1" />
-
                     </LinearLayout>
 
                     <Space

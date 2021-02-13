@@ -23,8 +23,10 @@ import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.example.kindredlclinic.adaptadores.ListaExameAdaptador;
 import com.example.kindredlclinic.models.SingletonKindredClinic;
 import com.example.kindredlclinic.vistas.DetalhesConsultaActivity;
+import com.example.kindredlclinic.vistas.ExameFragment;
 import com.example.kindredlclinic.vistas.InfoFragment;
 import com.example.kindredlclinic.vistas.ListaFragment;
 import com.example.kindredlclinic.vistas.ReceitaFragment;
@@ -133,6 +135,12 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 fragment = new ListaFragment();
                 setTitle(menuItem.getTitle());
                 break;
+
+            case R.id.nav_exames:
+                fragment = new ExameFragment();
+                setTitle(menuItem.getTitle());
+                break;
+
             /*case R.id.nav_servicoQuartos:
                 fragment = new ServicoQuartosFragment();
                 setTitle(menuItem.getTitle());

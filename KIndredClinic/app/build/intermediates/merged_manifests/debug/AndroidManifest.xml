@@ -34,6 +34,9 @@
             android:name="com.example.kindredlclinic.vistas.DetalhesReceitaActivity"
             android:parentActivityName="com.example.kindredlclinic.MainActivity" />
         <activity
+            android:name="com.example.kindredlclinic.vistas.DetalhesExameActivity"
+            android:parentActivityName="com.example.kindredlclinic.MainActivity" />
+        <activity
             android:name="com.example.kindredlclinic.vistas.UtenteActivity"
             android:parentActivityName="com.example.kindredlclinic.MainActivity" />
         <activity android:name="com.example.kindredlclinic.vistas.LoginActivity" >
