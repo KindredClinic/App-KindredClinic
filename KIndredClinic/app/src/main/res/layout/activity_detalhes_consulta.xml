@@ -51,7 +51,7 @@
                         android:orientation="vertical">
 
                         <TextView
-                            android:id="@+id/tvQuarto"
+                            android:id="@+id/tvData"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="0"
@@ -59,7 +59,11 @@
                             android:textSize="18sp" />
 
                         <TextView
+<<<<<<< Updated upstream
                             android:id="@+id/tvConsultaData"
+=======
+                            android:id="@+id/tvDataText"
+>>>>>>> Stashed changes
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_weight="0"
@@ -77,18 +81,25 @@
                         android:orientation="vertical">
 
                         <TextView
-                            android:id="@+id/tvCategoria"
+                            android:id="@+id/tvMedico"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:text="Medico"
                             android:textSize="18sp" />
 
                         <TextView
+<<<<<<< Updated upstream
                             android:id="@+id/tvConsultaMedico"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:textSize="18sp" />
 
+=======
+                            android:id="@+id/tvMedicoText"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textSize="18sp" />
+>>>>>>> Stashed changes
                     </LinearLayout>
 
                     <Space
@@ -101,18 +112,25 @@
                         android:orientation="vertical">
 
                         <TextView
-                            android:id="@+id/tvProduto"
+                            android:id="@+id/tvEspecialidade"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:text="Especialidade"
                             android:textSize="18sp" />
 
                         <TextView
+<<<<<<< Updated upstream
                             android:id="@+id/tvConsultaEspecialidade"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:textSize="18sp" />
 
+=======
+                            android:id="@+id/tvEspecialidadeText"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textSize="18sp" />
+>>>>>>> Stashed changes
                     </LinearLayout>
 
                     <Space

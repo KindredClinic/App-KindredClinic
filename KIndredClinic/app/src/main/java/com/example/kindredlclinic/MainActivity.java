@@ -107,7 +107,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         // Procura pelo ID do email
         TextView textViewUser = view.findViewById(R.id.tvEmail);
         // Escreve o email na TextView
-        textViewUser.setText(email);
+        //textViewUser.setText(email);
     }
 
 
