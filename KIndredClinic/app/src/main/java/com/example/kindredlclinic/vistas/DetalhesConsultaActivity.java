@@ -35,11 +35,7 @@ public class DetalhesConsultaActivity extends AppCompatActivity {
     public static final String CHAVE_ID = "idConsulta";
 
     private int idConsulta;
-<<<<<<< Updated upstream
     private TextView data, medico, especialidade, status;
-=======
-    private TextView tvData, tvMedico, tvEspecialidade;
->>>>>>> Stashed changes
     private MarcacaoConsulta marcacao;
     private FloatingActionButton fab;
     private SharedPreferences sharedPreferences;
@@ -57,17 +53,10 @@ public class DetalhesConsultaActivity extends AppCompatActivity {
 
         setContentView(R.layout.activity_detalhes_consulta);
 
-<<<<<<< Updated upstream
         data = findViewById(R.id.tvConsultaData);
         medico = findViewById(R.id.tvConsultaMedico);
         especialidade = findViewById(R.id.tvConsultaEspecialidade);
         status = findViewById(R.id.tvConsultaStatus);
-=======
-        tvData = findViewById(R.id.tvDataText);
-        tvMedico = findViewById(R.id.tvMedicoText);
-        tvEspecialidade = findViewById(R.id.tvEspecialidadeText);
->>>>>>> Stashed changes
-        fab = findViewById(R.id.fab);
 
         // Recebe o id da marcacao consulta como parâmentro e vai buscar a marcacao ao SingletonGestaoHotel pelo id
         idConsulta = getIntent().getIntExtra(CHAVE_ID,-1);
@@ -82,12 +71,7 @@ public class DetalhesConsultaActivity extends AppCompatActivity {
             System.out.println("--> adicionar");
             fab.setImageResource(R.drawable.ic_adicionar);
         } else {
-<<<<<<< Updated upstream
 
-=======
-            tvMedico.setEnabled(false);
-            tvEspecialidade.setEnabled(false);
->>>>>>> Stashed changes
             //System.out.println("--> Reserva: detalhes  " + idReserva);
             mostrarReserva(idConsulta);
             //System.out.println("Reserva: " + idReserva);
@@ -148,26 +132,17 @@ public class DetalhesConsultaActivity extends AppCompatActivity {
         int quartoC = Integer.parseInt(quartosCasal.getText().toString());
 */
 
-<<<<<<< Updated upstream
         MarcacaoConsulta auxiliar = new MarcacaoConsulta(0, "teste date", Integer.parseInt(especialidade.toString()), 0, 0, "hi");
-=======
-        MarcacaoConsulta auxiliar = new MarcacaoConsulta(0, "teste date", Integer.parseInt(tvEspecialidade.toString()), 0, 0);
->>>>>>> Stashed changes
+
         System.out.println("--> Marcacao Consulta" + auxiliar);
         return auxiliar;
     }
 
     private MarcacaoConsulta editarConsulta(){
 
-<<<<<<< Updated upstream
         consultaSelecionada.setDate(data.getText().toString());
         consultaSelecionada.setId_medico(Integer.parseInt(medico.toString()));
         consultaSelecionada.setId_especialidade(Integer.parseInt(especialidade.toString()));
-=======
-        consultaSelecionada.setDate(tvData.getText().toString());
-        consultaSelecionada.setId_medico(Integer.parseInt(tvMedico.toString()));
-        consultaSelecionada.setId_especialidade(Integer.parseInt(tvEspecialidade.toString()));
->>>>>>> Stashed changes
 
         return consultaSelecionada;
     }
@@ -178,16 +153,10 @@ public class DetalhesConsultaActivity extends AppCompatActivity {
         consultaSelecionada = SingletonKindredClinic.getInstance(getApplicationContext()).getMarcacaoConsultaBD(idConsulta);
         System.out.println("--> ConsultaSelecionada: " + consultaSelecionada);
         //setTitle("Reserva");
-<<<<<<< Updated upstream
         data.setText( consultaSelecionada.getDate());
         medico.setText(String.valueOf(consultaSelecionada.getId_medico()));
         especialidade.setText(String.valueOf(consultaSelecionada.getId_especialidade()));
         status.setText(consultaSelecionada.getStatus());
-=======
-        tvData.setText(consultaSelecionada.getDate());
-        tvMedico.setText(String.valueOf(consultaSelecionada.getId_medico()));
-        tvEspecialidade.setText(String.valueOf(consultaSelecionada.getId_especialidade()));
->>>>>>> Stashed changes
     }
 
 
