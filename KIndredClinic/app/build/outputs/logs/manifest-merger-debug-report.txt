@@ -4,6 +4,7 @@ ADDED from D:\Android Files\App-KindredClinic\KIndredClinic\app\src\main\Android
 INJECTED from D:\Android Files\App-KindredClinic\KIndredClinic\app\src\main\AndroidManifest.xml:2:1-49:12
 INJECTED from D:\Android Files\App-KindredClinic\KIndredClinic\app\src\main\AndroidManifest.xml:2:1-49:12
 INJECTED from D:\Android Files\App-KindredClinic\KIndredClinic\app\src\main\AndroidManifest.xml:2:1-49:12
+MERGED from [androidx.multidex:multidex:2.0.0] C:\Users\Alex\.gradle\caches\transforms-2\files-2.1\6131b6bd4c7f07422046f47512bfed9d\multidex-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.volley:volley:1.1.1] C:\Users\Alex\.gradle\caches\transforms-2\files-2.1\85749c690612eee1571421e10a0616be\jetified-volley-1.1.1\AndroidManifest.xml:2:1-11:12
 MERGED from [com.github.bumptech.glide:glide:4.10.0] C:\Users\Alex\.gradle\caches\transforms-2\files-2.1\efb0318a3168b8a2e384b54bbc3121c0\jetified-glide-4.10.0\AndroidManifest.xml:2:1-12:12
 MERGED from [com.google.android.material:material:1.1.0] C:\Users\Alex\.gradle\caches\transforms-2\files-2.1\c9350c4470b6f4895016aaf418fed985\material-1.1.0\AndroidManifest.xml:17:1-24:12
@@ -155,6 +156,8 @@ uses-sdk
 INJECTED from D:\Android Files\App-KindredClinic\KIndredClinic\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from D:\Android Files\App-KindredClinic\KIndredClinic\app\src\main\AndroidManifest.xml
 INJECTED from D:\Android Files\App-KindredClinic\KIndredClinic\app\src\main\AndroidManifest.xml
+MERGED from [androidx.multidex:multidex:2.0.0] C:\Users\Alex\.gradle\caches\transforms-2\files-2.1\6131b6bd4c7f07422046f47512bfed9d\multidex-2.0.0\AndroidManifest.xml:20:5-43
+MERGED from [androidx.multidex:multidex:2.0.0] C:\Users\Alex\.gradle\caches\transforms-2\files-2.1\6131b6bd4c7f07422046f47512bfed9d\multidex-2.0.0\AndroidManifest.xml:20:5-43
 MERGED from [com.android.volley:volley:1.1.1] C:\Users\Alex\.gradle\caches\transforms-2\files-2.1\85749c690612eee1571421e10a0616be\jetified-volley-1.1.1\AndroidManifest.xml:7:5-43
 MERGED from [com.android.volley:volley:1.1.1] C:\Users\Alex\.gradle\caches\transforms-2\files-2.1\85749c690612eee1571421e10a0616be\jetified-volley-1.1.1\AndroidManifest.xml:7:5-43
 MERGED from [com.github.bumptech.glide:glide:4.10.0] C:\Users\Alex\.gradle\caches\transforms-2\files-2.1\efb0318a3168b8a2e384b54bbc3121c0\jetified-glide-4.10.0\AndroidManifest.xml:6:5-8:41

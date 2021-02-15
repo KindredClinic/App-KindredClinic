@@ -15,11 +15,8 @@ com/example/kindredlclinic/models/Medicamentos.java
  com.example.kindredlclinic.models.Medicamentos
 com/example/kindredlclinic/models/Utente.java
  com.example.kindredlclinic.models.Utente
-<<<<<<< Updated upstream
 com/example/kindredlclinic/utils/MarcacaoExameJsonParser.java
  com.example.kindredlclinic.utils.MarcacaoExameJsonParser
-=======
->>>>>>> Stashed changes
 com/example/kindredlclinic/vistas/ReceitaFragment.java
  com.example.kindredlclinic.vistas.ReceitaFragment
  com.example.kindredlclinic.vistas.ReceitaFragment$1
@@ -119,12 +116,9 @@ com/example/kindredlclinic/adaptadores/ListaReceitaAdaptador.java
  com.example.kindredlclinic.adaptadores.ListaReceitaAdaptador$ViewHolderLista
 com/example/kindredlclinic/utils/ConsultaJsonParser.java
  com.example.kindredlclinic.utils.ConsultaJsonParser
-<<<<<<< Updated upstream
 com/example/kindredlclinic/adaptadores/ListaExameAdaptador.java
  com.example.kindredlclinic.adaptadores.ListaExameAdaptador
  com.example.kindredlclinic.adaptadores.ListaExameAdaptador$ViewHolderLista
-=======
->>>>>>> Stashed changes
 com/example/kindredlclinic/vistas/InfoFragment.java
  com.example.kindredlclinic.vistas.InfoFragment
 com/example/kindredlclinic/vistas/DetalhesReceitaActivity.java
@@ -135,13 +129,10 @@ com/example/kindredlclinic/models/Exame.java
  com.example.kindredlclinic.models.Exame
 com/example/kindredlclinic/utils/ReceitaMedicaJsonParser.java
  com.example.kindredlclinic.utils.ReceitaMedicaJsonParser
-<<<<<<< Updated upstream
 com/example/kindredlclinic/vistas/ExameFragment.java
  com.example.kindredlclinic.vistas.ExameFragment
  com.example.kindredlclinic.vistas.ExameFragment$1
  com.example.kindredlclinic.vistas.ExameFragment$2
-=======
->>>>>>> Stashed changes
 com/example/kindredlclinic/models/User.java
  com.example.kindredlclinic.models.User
 com/example/kindredlclinic/listeners/MarcacaoConsultasListener.java

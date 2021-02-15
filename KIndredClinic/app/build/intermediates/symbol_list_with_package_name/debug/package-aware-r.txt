@@ -1740,41 +1740,24 @@ id tv7
 id tv8
 id tvAluno1
 id tvAluno2
-<<<<<<< Updated upstream
-id tvCategoria
 id tvConsultaData
 id tvConsultaEspecialidade
 id tvConsultaMedico
 id tvConsultaStatus
-=======
->>>>>>> Stashed changes
 id tvConteudoReceita
 id tvCurso
 id tvData
 id tvDataMarcacao
 id tvDataReceita_Receita
-<<<<<<< Updated upstream
-id tvEmail
-id tvIdMarcacao
-=======
-id tvDataReceitas
-id tvDataText
 id tvEmail
 id tvEspecialidade
-id tvEspecialidadeText
->>>>>>> Stashed changes
+id tvIdMarcacao
 id tvIdReceita
 id tvLinktoRegistar
 id tvMedicamentosReceita
 id tvMedico
 id tvMedicoMarcacao
 id tvMedicoReceita_Receita
-<<<<<<< Updated upstream
-=======
-id tvMedicoText
-id tvNumPessoas
-id tvNumQuartos
->>>>>>> Stashed changes
 id tvPergunta
 id tvReceitaConteudo
 id tvReceitaData

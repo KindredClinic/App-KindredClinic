@@ -8,9 +8,6 @@ import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.DatePicker;
-import android.widget.EditText;
-import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -18,9 +15,9 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 
 import com.example.kindredlclinic.R;
-import com.example.kindredlclinic.models.Consulta;
 import com.example.kindredlclinic.models.MarcacaoConsulta;
 import com.example.kindredlclinic.models.SingletonKindredClinic;
 import com.example.kindredlclinic.utils.ConsultaJsonParser;
@@ -52,6 +49,10 @@ public class DetalhesConsultaActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
 
         setContentView(R.layout.activity_detalhes_consulta);
+
+        Toolbar toolbar = findViewById(R.id.toolbar);
+        //setSupportActionBar(toolbar);
+        toolbar.setTitle("Consulta");
 
         data = findViewById(R.id.tvConsultaData);
         medico = findViewById(R.id.tvConsultaMedico);
@@ -104,7 +105,7 @@ public class DetalhesConsultaActivity extends AppCompatActivity {
         });*/
 
         // <----------------------------------Fab------------------------------------->
-
+/*
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -121,7 +122,7 @@ public class DetalhesConsultaActivity extends AppCompatActivity {
                 }
             }
         });
-
+*/
     }
 
     private MarcacaoConsulta adicionarConsulta(){
@@ -159,7 +160,7 @@ public class DetalhesConsultaActivity extends AppCompatActivity {
         status.setText(consultaSelecionada.getStatus());
     }
 
-
+/*
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
 
@@ -217,4 +218,7 @@ public class DetalhesConsultaActivity extends AppCompatActivity {
             Toast.makeText(DetalhesConsultaActivity.this, R.string.offline, Toast.LENGTH_SHORT).show();
         }
     }
+
+*/
 }
+ 

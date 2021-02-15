@@ -59,11 +59,7 @@
                             android:textSize="18sp" />
 
                         <TextView
-<<<<<<< Updated upstream
                             android:id="@+id/tvConsultaData"
-=======
-                            android:id="@+id/tvDataText"
->>>>>>> Stashed changes
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_weight="0"
@@ -88,18 +84,10 @@
                             android:textSize="18sp" />
 
                         <TextView
-<<<<<<< Updated upstream
                             android:id="@+id/tvConsultaMedico"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:textSize="18sp" />
-
-=======
-                            android:id="@+id/tvMedicoText"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:textSize="18sp" />
->>>>>>> Stashed changes
                     </LinearLayout>
 
                     <Space
@@ -119,18 +107,11 @@
                             android:textSize="18sp" />
 
                         <TextView
-<<<<<<< Updated upstream
                             android:id="@+id/tvConsultaEspecialidade"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:textSize="18sp" />
 
-=======
-                            android:id="@+id/tvEspecialidadeText"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:textSize="18sp" />
->>>>>>> Stashed changes
                     </LinearLayout>
 
                     <Space
