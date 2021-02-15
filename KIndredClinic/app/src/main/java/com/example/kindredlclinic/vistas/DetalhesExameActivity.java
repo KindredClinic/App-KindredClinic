@@ -10,6 +10,7 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 
 import com.example.kindredlclinic.R;
 import com.example.kindredlclinic.models.MarcacaoExame;
@@ -24,7 +25,7 @@ public class DetalhesExameActivity extends AppCompatActivity {
     private int idExame;
     private TextView data, medico, especialidade, status;
     private MarcacaoExame marcacao;
-    private FloatingActionButton fab;
+    //private FloatingActionButton fab;
     private SharedPreferences sharedPreferences;
 
     private MarcacaoExame exameSelecionado;
@@ -35,12 +36,16 @@ public class DetalhesExameActivity extends AppCompatActivity {
 
         setContentView(R.layout.activity_detalhes_consulta);
 
+        Toolbar toolbar = findViewById(R.id.toolbar);
+        //setSupportActionBar(toolbar);
+        toolbar.setTitle("Exame");
+
         data = findViewById(R.id.tvConsultaData);
         medico = findViewById(R.id.tvConsultaMedico);
         especialidade = findViewById(R.id.tvConsultaEspecialidade);
         status = findViewById(R.id.tvConsultaStatus);
 
-        fab = findViewById(R.id.fab);
+     //   fab = findViewById(R.id.fab);
 
         System.out.println("--> chave " + CHAVE_ID);
 
@@ -48,18 +53,18 @@ public class DetalhesExameActivity extends AppCompatActivity {
         idExame = getIntent().getIntExtra(CHAVE_ID,-1);
 
         sharedPreferences = getSharedPreferences("old_user", MODE_PRIVATE);
-
+/*
         if(idExame == -1){
             setTitle("Adicionar Consulta");
             System.out.println("--> adicionar");
             fab.setImageResource(R.drawable.ic_adicionar);
-        } else {
+        } else {*/
 
             //System.out.println("--> Reserva: detalhes  " + idReserva);
             mostrarExame(idExame);
             //System.out.println("Reserva: " + idReserva);
             // fab.setImageResource(R.drawable.ic_alterar);
-        }
+     //   }
 
     }
 

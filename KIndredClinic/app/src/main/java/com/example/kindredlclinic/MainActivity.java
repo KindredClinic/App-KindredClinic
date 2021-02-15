@@ -76,7 +76,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         // A activity escuta este Listener
         navigationView.setNavigationItemSelectedListener(this);
 
-        /*carregamentoFragmentoInicial();*/
+        carregamentoFragmentoInicial();
 
     }
 
@@ -111,12 +111,12 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     }
 
 
-    /*private void carregamentoFragmentoInicial(){
-        navigationView.setCheckedItem(R.id.nav_estadoReservas);
+    private void carregamentoFragmentoInicial(){
+        navigationView.setCheckedItem(R.id.nav_quemSomos);
         Fragment fragment = new InfoFragment();
         fragmentManager.beginTransaction().replace(R.id.contentFragment, fragment).commit();
         setTitle("Quem Somos?");
-    }*/
+    }
 
     @Override
     public boolean onNavigationItemSelected(@NonNull MenuItem menuItem) {

@@ -36,4 +36,6 @@
     <string name="cancelar_consulta">Cancelar Consulta</string>
     <string name="procurar_consulta">Procurar</string>
     <string name="getId">\" nª: \" + consulta.getId()</string>
+    <string name="str_abrir">Abrir</string>
+    <string name="str_fechar">Fechar</string>
 </resources>

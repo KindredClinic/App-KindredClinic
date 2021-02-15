@@ -1538,7 +1538,6 @@ id enterAlwaysCollapsed
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
-id fab
 id fade
 id fill
 id fill_horizontal
@@ -2057,6 +2056,8 @@ string registar_voltar
 string search_menu_title
 string sobre
 string status_bar_notification_info_overflow
+string str_abrir
+string str_fechar
 string telem_vel
 string terminar_sess_o
 style AlertDialog_AppCompat

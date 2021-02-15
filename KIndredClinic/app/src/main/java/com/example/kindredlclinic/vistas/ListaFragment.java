@@ -55,8 +55,8 @@ public class ListaFragment extends Fragment implements MarcacaoConsultasListener
 
         //  <----------- Floating Button ----------->
 
-        FloatingActionButton fab = rootView.findViewById(R.id.fab);
-
+       // FloatingActionButton fab = rootView.findViewById(R.id.fab);
+/*
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -66,7 +66,7 @@ public class ListaFragment extends Fragment implements MarcacaoConsultasListener
             }
         });
 
-
+*/
         // <--------------------- Ao selecionar um item da List View --------------------->
 
         lvlistaConsultas.setOnItemClickListener(new AdapterView.OnItemClickListener() {

@@ -10,6 +10,7 @@ import android.widget.TextView;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 
 import com.example.kindredlclinic.R;
 import com.example.kindredlclinic.models.SingletonKindredClinic;
@@ -36,6 +37,11 @@ public class UtenteActivity extends AppCompatActivity {
             @Override
             public void run() {
                 setContentView(R.layout.activity_detalhes_utente);
+
+                Toolbar toolbar = findViewById(R.id.toolbar);
+                toolbar.setTitle("Perfil");
+                //setSupportActionBar(toolbar);
+                //setTitle("Perfil");
 
                 tvNome = findViewById(R.id.tvUtenteNome);
                 tvNif = findViewById(R.id.tvUtenteNif);

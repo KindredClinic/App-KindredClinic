@@ -19,6 +19,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 
 import com.android.volley.AuthFailureError;
 import com.android.volley.Request;
@@ -66,6 +67,10 @@ public class DetalhesReceitaActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
 
         setContentView(R.layout.activity_detalhes_receita);
+
+        Toolbar toolbar = findViewById(R.id.toolbar);
+        //setSupportActionBar(toolbar);
+        toolbar.setTitle("Receita Medica");
 
         tvReceitaData = findViewById(R.id.tvReceitaData);
         tvReceitaConteudo = findViewById(R.id.tvReceitaConteudo);
@@ -133,14 +138,14 @@ public class DetalhesReceitaActivity extends AppCompatActivity {
         });
 */
     }
-
+/*
     private ReceitaMedica adicionarReceita(){
 
         /*int quartoS = Integer.parseInt(quartosSolteiro.getText().toString());
         int quartoD = Integer.parseInt(quartosDuplo.getText().toString());
         int quartoF = Integer.parseInt(quartosFamilia.getText().toString());
         int quartoC = Integer.parseInt(quartosCasal.getText().toString());
-*/
+
 
         ReceitaMedica auxiliar = new ReceitaMedica(0, "2021-01-08 23:31:08", "Integer.parseInt(spEspecialidade.toString())", 22, 3, 2);
         System.out.println("--> Receita Medica " + auxiliar);
@@ -155,7 +160,7 @@ public class DetalhesReceitaActivity extends AppCompatActivity {
         return receitaMedica;
     }
 
-
+*/
     private void mostrarReceita(int idReceitaAux){
 
         receitaMedica = SingletonKindredClinic.getInstance(getApplicationContext()).getReceitaMedicaBD(idReceitaAux);
@@ -180,7 +185,7 @@ public class DetalhesReceitaActivity extends AppCompatActivity {
         }
         return false;
     }
-
+/*
     @Override
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
 
@@ -227,4 +232,7 @@ public class DetalhesReceitaActivity extends AppCompatActivity {
             Toast.makeText(DetalhesReceitaActivity.this, R.string.offline, Toast.LENGTH_SHORT).show();
         }
     }
+
+
+ */
 }

@@ -460,7 +460,6 @@ public class SingletonKindredClinic implements ConsultasListener, Especialidades
 
     }
 
-
     // <--------------------------------------- MARCACAO CONSULTAS --------------------------------------->
 
     // Vai buscar todas as Marcacoes Consultas à API
@@ -521,8 +520,8 @@ public class SingletonKindredClinic implements ConsultasListener, Especialidades
     }
 
     public void adicionarMarcacaoConsultaAPI(final MarcacaoConsulta marcacaoConsulta, final Context context, final String username, final String password){
-
-        StringRequest req = new StringRequest(Request.Method.POST, mUrlAPIMARCACAOCONSULTA, new Response.Listener<String>() {
+        System.out.println("--> RESPOSTA ADD POST : " + marcacaoConsulta);
+        StringRequest req = new StringRequest(Request.Method.POST, mUrlAPIMARCACAOCONSULTA + "/adicionarconulta", new Response.Listener<String>() {
             @Override
             public void onResponse(String response) {
 
@@ -542,9 +541,12 @@ public class SingletonKindredClinic implements ConsultasListener, Especialidades
             protected Map<String, String> getParams(){
 
                 Map<String, String> params = new HashMap<>();
+                params.put("id", marcacaoConsulta.getId() + "");
                 params.put("date", marcacaoConsulta.getDate() + "");
-                params.put("id_medico", marcacaoConsulta.getId_medico() + "");
                 params.put("id_especialidade", marcacaoConsulta.getId_especialidade() + "");
+                params.put("id_medico", marcacaoConsulta.getId_medico() + "");
+                params.put("id_utente", marcacaoConsulta.getId_utente() + "");
+                params.put("status", marcacaoConsulta.getStatus() + "");
 
                 return params;
             }

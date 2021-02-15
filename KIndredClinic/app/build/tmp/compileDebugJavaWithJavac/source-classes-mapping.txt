@@ -5,9 +5,6 @@ com/example/kindredlclinic/models/Medico.java
  com.example.kindredlclinic.models.Medico
 com/example/kindredlclinic/vistas/DetalhesConsultaActivity.java
  com.example.kindredlclinic.vistas.DetalhesConsultaActivity
- com.example.kindredlclinic.vistas.DetalhesConsultaActivity$1
- com.example.kindredlclinic.vistas.DetalhesConsultaActivity$2
- com.example.kindredlclinic.vistas.DetalhesConsultaActivity$3
 com/example/kindredlclinic/listeners/UsersListener.java
  com.example.kindredlclinic.listeners.UsersListener
 com/example/kindredlclinic/listeners/MarcacaoExamesListener.java
@@ -24,7 +21,6 @@ com/example/kindredlclinic/vistas/ReceitaFragment.java
  com.example.kindredlclinic.vistas.ReceitaFragment
  com.example.kindredlclinic.vistas.ReceitaFragment$1
  com.example.kindredlclinic.vistas.ReceitaFragment$2
- com.example.kindredlclinic.vistas.ReceitaFragment$3
 com/example/kindredlclinic/models/Especialidade.java
  com.example.kindredlclinic.models.Especialidade
 com/example/kindredlclinic/listeners/ReceitasMedicasListener.java
@@ -48,7 +44,6 @@ com/example/kindredlclinic/vistas/ListaFragment.java
  com.example.kindredlclinic.vistas.ListaFragment
  com.example.kindredlclinic.vistas.ListaFragment$1
  com.example.kindredlclinic.vistas.ListaFragment$2
- com.example.kindredlclinic.vistas.ListaFragment$3
 com/example/kindredlclinic/listeners/MedicosListener.java
  com.example.kindredlclinic.listeners.MedicosListener
 com/example/kindredlclinic/listeners/ExamesListener.java
@@ -128,8 +123,6 @@ com/example/kindredlclinic/vistas/InfoFragment.java
  com.example.kindredlclinic.vistas.InfoFragment
 com/example/kindredlclinic/vistas/DetalhesReceitaActivity.java
  com.example.kindredlclinic.vistas.DetalhesReceitaActivity
- com.example.kindredlclinic.vistas.DetalhesReceitaActivity$1
- com.example.kindredlclinic.vistas.DetalhesReceitaActivity$2
 com/example/kindredlclinic/utils/MedicoJsonParser.java
  com.example.kindredlclinic.utils.MedicoJsonParser
 com/example/kindredlclinic/models/Exame.java

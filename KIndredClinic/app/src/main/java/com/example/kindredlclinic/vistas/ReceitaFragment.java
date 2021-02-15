@@ -52,7 +52,7 @@ public class ReceitaFragment extends Fragment implements ReceitasMedicasListener
 
         //  <----------- Floating Button ----------->
 
-        FloatingActionButton fab = rootView.findViewById(R.id.fab);
+       /* FloatingActionButton fab = rootView.findViewById(R.id.fab);
 
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -62,7 +62,7 @@ public class ReceitaFragment extends Fragment implements ReceitasMedicasListener
                 startActivity(intent);
             }
         });
-
+*/
 
         // <--------------------- Ao selecionar um item da List View --------------------->
 
